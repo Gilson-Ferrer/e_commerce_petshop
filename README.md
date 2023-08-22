@@ -6,8 +6,10 @@ https://gamma.app/?lng=en -> para gerar apresentações slides
 
 # Definir
 
-[ ]  Layout 
-[]  Funcionalidades do site
+* Layout 
+
+* Funcionalidades do site
+
 	responsividade
 	carrinho
 	cadastro de clientes
@@ -24,11 +26,18 @@ https://gamma.app/?lng=en -> para gerar apresentações slides
 	banco de imagens
 	
 	
-[] - Divisão de tarefas
-[] - Paleta de cores e design
-5 - Nome do site
-6 - Apresentação
-7 - Definir datas
-8 - Web-paginas
-9 - Diretótio
+* Divisão de tarefas
+* Paleta de cores e design
+* Nome do site
+* Apresentação
+* Definir datas
+* Web-paginas
+* Diretótio
+
+# Inspirações
+
+**Vinícius (ideias)** <br>
+
+
+[ALURA layout figma](https://www.figma.com/file/RDLt5kw6wI9ipsMFw5C0ST/AluraBooks-(Copy)?type=design&node-id=37-94&mode=design)
 
