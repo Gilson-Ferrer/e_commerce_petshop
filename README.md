@@ -1,11 +1,13 @@
+# Links (front end)
+
 https://color.adobe.com/pt/create/color-wheel -> site para definir paleta de cores e define a constraste e adequação das cores na paleta.
 
 https://gamma.app/?lng=en -> para gerar apresentações slides
 
-O que discutir com o grupo
+# Definir
 
-1 - Layout 
-2 - Funcionalidades do site
+[ ]  Layout 
+[]  Funcionalidades do site
 	responsividade
 	carrinho
 	cadastro de clientes
@@ -22,15 +24,11 @@ O que discutir com o grupo
 	banco de imagens
 	
 	
-3 - Divisão de tarefas
-4 - Paleta de cores e design
+[] - Divisão de tarefas
+[] - Paleta de cores e design
 5 - Nome do site
 6 - Apresentação
 7 - Definir datas
 8 - Web-paginas
 9 - Diretótio
-10 -
-
-
-
 
