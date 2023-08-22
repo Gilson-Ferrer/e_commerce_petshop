@@ -6,7 +6,9 @@ https://gamma.app/?lng=en -> para gerar apresentações slides
 
 # Definir
 
-* Layout 
+* 📐Layout <br>
+
+	reunião realizada em 22/08/2023 -> Fazer um layout do site e apresentar em 23/08/2023 ás 17:30 (pode ser no figma, na mão, paint ou outro)
 
 * Funcionalidades do site
 
