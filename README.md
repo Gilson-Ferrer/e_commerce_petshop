@@ -41,3 +41,8 @@ https://gamma.app/?lng=en -> para gerar apresentações slides
 
 [ALURA layout figma](https://www.figma.com/file/RDLt5kw6wI9ipsMFw5C0ST/AluraBooks-(Copy)?type=design&node-id=37-94&mode=design)
 
+
+
+**Gilson (ideias)**<br>
+
+[Google layout site](https://www.pettoco.com.br/?gclid=Cj0KCQjwuZGnBhD1ARIsACxbAVgz7xPIePkbV67GAeC65THiNpUT0Q8KqI9kfurVDadlhNBoRfXUsygaAkv4EALw_wcB)
