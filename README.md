@@ -10,7 +10,10 @@ https://fonts.google.com/icons -> ícones para todo site
 
 * Layout <br>
 
-	reunião realizada em 22/08/2023 -> Fazer um layout do site e apresentar em 23/08/2023 ás 17:30 (pode ser no figma, na mão, paint ou outro)
+	reunião realizada em 22/08/2023 -> Fazer um layout do site e apresentar em 23/08/2023 ás 17:30 (pode ser no figma, na mão, paint ou outro) -> OK
+
+	## Layout definido em 23/08/2023 em layout_imgs 
+
 
 * Funcionalidades do site
 
