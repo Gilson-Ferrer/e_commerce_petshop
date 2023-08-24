@@ -1,0 +1,16 @@
+Paleta de cores utilizadas
+
+#FF6F00 laranja (faixa home)
+#08B5D3 azul (promoção)
+#A8A5A3 cinza (linha index)
+#E66300 marrom (linha index)
+#F1EEEE cinza claro (caixa amostra de produtos)
+#0878D3 azul escuro (index)
+#4B9926 verde (sacola)
+#737373 cinza escuro (logotipo)
+#0878D3 azul (logotipo)
+#E6D600 amarelo (footer)
+#FF0101 vermelho (footer)
+
+
+
