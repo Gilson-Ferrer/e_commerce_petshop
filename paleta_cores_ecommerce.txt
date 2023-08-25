@@ -11,6 +11,7 @@ Paleta de cores utilizadas
 #0878D3 azul (logotipo)
 #E6D600 amarelo (footer)
 #FF0101 vermelho (footer)
+#ffffff branco (background de todo site)
 
 
 
