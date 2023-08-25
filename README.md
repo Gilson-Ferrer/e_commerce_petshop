@@ -6,6 +6,8 @@ https://gamma.app/?lng=en -> para gerar apresentações slides
 
 https://fonts.google.com/icons -> ícones para todo site
 
+https://www.loopnerd.com.br/codigos-html-prontos/ -> site para consulta de html 
+
 # 📑 Definir
 
 * Layout <br>
