@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="shortcut icon" type="imagex/png" href="./img/logo_pet-tudo-icone.ico">
+</head>
+
+<body>
+    <header>
+        <section>
+            <aside>
+                <img src="./img/icone-3-barras.svg" alt="Icone do aside">
+            </aside>
+            <h1><img src="./img/logo_pet-tudo-sem-fundo.png" alt="Logo da Loja Pet Tudo"></h1>
+        </section>
+        <nav>
+            <div>
+                <p>Home</p>
+            </div>
+            <div>
+                <p>Promoção</p>
+            </div>
+            <div>
+                <p>Mais vendidos</p>
+            </div>
+            <div>
+                <p>Sobre nós</p>
+            </div>
+            <div>
+                <img src="./img/sacola_fr.png" alt="Icone de Sacola">
+                <p>Sacola</p>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>            
+            <img src="./img/sacola_fr.png" alt="Ícone de Sacola">
+            <div>
+                <img src="./img/produto_fr.png" alt="Osso de brinquedo">
+                <h2>Detalhes do produto e informações relevantes sobre medida e peso</h2>
+            </div>            
+                <!--Calcular a quantidade de itens-->
+            <div>
+                <h3>Quantidade</h3>
+                <input type="number" name="qtd_produt">
+                <input type="button" value="Adicionar" onclick="add_()">
+            </div>
+            <div>
+                <!--Checkbox para cor do produto-->
+                <h3>Cor</h3>
+                <input type="checkbox" id="cor1_" name="cor1_" value="vermelho">
+                <label for="cor1_">Vermelho</label><br>
+                <input type="checkbox" id="cor2_" name="cor2_" value="azul">
+                <label for="cor2_">Azul</label><br>
+                <input type="checkbox" id="cor3_" name="cor3_" value="verde">
+                <label for="cor3_">Verde</label><br>
+                <input type="checkbox" id="cor4_" name="cor4_" value="amarelo">
+                <label for="cor4_">Amarelo</label><br>
+            </div>
+                <!--Calcular frete-->
+            <div>
+                <h4><label for="cep">Calcular frete</label></h4>
+                <input type="search" name="cep" placeholder="Digite o cep...">
+            </div>
+
+                <!--Calcular sutotal e total-->
+            <div>
+                <h4>Subtotal</h4>
+                <input type="text" id="subtotal_result">                               
+            </div>
+            <div>
+               <h4>Total</h4>
+               <input type="text" id="total_result">  
+            </div>
+        </section>
+        <section>
+            <div>
+                <h3>Produtos relacionados</h3>                
+                <div>
+                    <img src="./img/produto_fr.png" alt="Osso de brinquedo">
+                    <h2>Osso de brinquedo</h2>
+                    <p>Informações</p>
+                    <p>R$19,99</p>
+                </div>
+                <div>
+                    <img src="./img/produto_fr.png" alt="Osso de brinquedo">
+                    <h2>Osso de brinquedo</h2>
+                    <p>Informações</p>
+                    <p>R$19,99</p>
+                </div>
+                <div>
+                    <img src="./img/produto_fr.png" alt="Osso de brinquedo">
+                    <h2>Osso de brinquedo</h2>
+                    <p>Informações</p>
+                    <p>R$19,99</p>
+                </div>                
+            </div>
+        </section>
+    </main> 
+    <footer>
+        <!--Seção de vantagens-->
+        <section>
+            <div>
+                <img src="./img/fretegratis_fr.png" alt="Frete grátis">
+                <p>Frete grátis</p>
+            </div>
+            <div>
+                <img src="./img/paguefacil_fr.png" alt="Pague fácil">
+                <p>Pague fácil</p>
+            </div>
+            <div>
+                <img src="./img/menorpreco_fr.png" alt="Menor preço">
+                <p>Menor preço</p>
+            </div>
+            <div>
+                <img src="./img/cashback_fr.png" alt="Cash back">
+                <p>Cash back</p>
+            </div>
+        </section>
+        <!--Seção de informações-->
+        <section>
+            <div>
+                <h2>Contato</h2>
+                <p>Informações sobre o site</p>
+                <p>Informações sobre o site</p>
+                <p>Informações sobre o site</p>
+                <p>Informações sobre o site</p>
+            </div>
+            <div>
+                <h2>Destaques</h2>
+                <p>Informações sobre o site</p>
+                <p>Informações sobre o site</p>
+                <p>Informações sobre o site</p>
+                <p>Informações sobre o site</p>
+            </div>
+            <div>
+                <h2>Institucional</h2>
+                <p>Informações sobre o site</p>
+                <p>Informações sobre o site</p>
+                <p>Informações sobre o site</p>
+                <p>Informações sobre o site</p>
+            </div>
+            <div>
+                <h2>Redes Sociais</h2>
+                <p>Informações sobre o site</p>
+                <p>Informações sobre o site</p>
+                <p>Informações sobre o site</p>
+                <p>Informações sobre o site</p>
+            </div>
+            <img src="./img/pagamento_fr.png" alt="">
+        </section>
+        <section>
+            <p>&copy;PetTudo - Todos os direitos reservados</p>
+        </section>
+    </footer>   
+</body>
+</html>
