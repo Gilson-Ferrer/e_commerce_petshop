@@ -23,6 +23,9 @@ https://www.loopnerd.com.br/codigos-html-prontos/ -> site para consulta de html
 			Estrutura criada pelo vinícius, e definida como padrão para replicar as outras páginas.
 
 
+
+
+
 * Funcionalidades do site
 
 	* responsividade
@@ -70,7 +73,7 @@ https://www.loopnerd.com.br/codigos-html-prontos/ -> site para consulta de html
 
 	Entrega sprint 1 em 25/08/2023 -> ok
 	Entrega sprint 2 em 31/08/2023 -> ok
-	Entrega sprint 3 ? -> 
+	Entrega sprint 3 em 03/10/2023 -> 
 	Entrega sprint 4 ? -> 
 
 
