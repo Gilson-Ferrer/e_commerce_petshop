@@ -1,18 +1,52 @@
+@import url("/styles/styles.css");
+
 .cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.menu-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-hamburguer__icone {
+    width: 30px;
+    height: 30px;
+}
+
+.logo__icone {
+    width: 300px;
+    height: auto;
+}
+
+.menu-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.menu-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.menu-nav__link {
+    padding: 0 0.5em;
+    margin: 0 0.5em;
+    text-decoration: none;
+    color: black;
 }
 
 .sacola {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.sacola-icone {
+    width: 50px;
+    height: auto;
 }

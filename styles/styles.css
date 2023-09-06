@@ -2,18 +2,10 @@
     --cor-background-principal: #ffffff;
     --marrom-linha-index: #e66300;
     --cinza-card: #f1eeee;
-    --cinza-background: #a8a5a3;
+    --cinza: #a8a5a3;
     --cinza-botao: #737373;
     --azul-botao: #0878d3;
     --laranja-botao: #ff6f00;
     --verde-botao: #4b9926;
     --amarelo-botao: #e6d600;
-}
-
-html {
-    height: 100%;
-}
-body {
-    width: 1728px;
-    min-height: 100vh;
 }
