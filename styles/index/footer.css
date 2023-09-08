@@ -1,0 +1,68 @@
+@import url("/styles/styles.css");
+
+.rodape {
+    background-color: var(--cinza-card);
+}
+
+.rodape-titulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1em;
+    font-size: 2rem;
+}
+
+.rodape-secoes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rodape-vantagens {
+    margin: 0 3em;
+}
+
+.vantagens-frete {
+    color: var(--azul-botao);
+}
+
+.vantagens-pagamento {
+    color: var(--verde-botao);
+}
+
+.vantagens-preco {
+    color: var(--amarelo-botao);
+}
+
+.vantagens-cashback {
+    color: var(--vermelho-botao);
+}
+
+.rodape-info {
+    padding: 1em;
+}
+
+.rodape-info__titulo {
+    color: var(--laranja-rodape);
+    padding: 1em;
+}
+
+.rodape-info__texto {
+    padding: 0 0 0.5em 0;
+}
+
+.rodape-pagamento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+    margin: 0 10%;
+    border-bottom: 2px dashed black;
+}
+
+.rodape-copy {
+    margin: 1em;
+}
