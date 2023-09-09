@@ -9,4 +9,12 @@
     --verde-botao: #4b9926;
     --amarelo-botao: #e6d600;
     --vermelho-botao: #ff0101;
+    --fonte-chau : 'Chau Philomene One', sans-serif;
+    --fonte-playfair: 'Playfair Display', serif;
+    --fonte-questrial: 'Questrial', sans-serif;
+    --laranja-card: #f3aa0b;
+}
+
+body {
+    font-family: var(--fonte-chau);
 }
