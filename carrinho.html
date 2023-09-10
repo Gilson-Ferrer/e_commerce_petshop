@@ -13,156 +13,177 @@
     <link rel="stylesheet" href="./styles/index/header.css">
     <link rel="stylesheet" href="./styles/index/footer.css">
     <link rel="stylesheet" href="./styles/index/card.css">
+    <link rel="stylesheet" href="./styles/painel-carrinho.css">
+
 </head>
 
-<body>
-    <header>
-        <section>
+<body background="img/img-decoration-back.png">
+    <header class="cabecalho">
+        <section class="menu-principal">
             <aside>
-                <img src="./img/icone-3-barras.svg" alt="Icone do aside">
+                <img src="./img/icone-3-barras.svg" alt="Icone do aside" class="menu-hamburguer__icone">
             </aside>
-            <h1><img src="./img/logo_pet-tudo-sem-fundo.png" alt="Logo da Loja Pet Tudo"></h1>
+            <h1><img src="./img/logo_pet-tudo-sem-fundo.png" alt="Logo da Loja Pet Tudo" class="logo__icone"></h1>
         </section>
-        <nav>
+        <nav class="menu-nav">
             <div>
-                <a href="./index.html">Home</a>
+                <a href="./index.html" class="menu-nav__link">Home</a>
             </div>
             <div>
-                <a href="./promocao.html">Promoção</a>
+                <a href="./promocao.html" class="menu-nav__link">Promoção</a>
             </div>
             <div>
-                <a href="./maisvendido.html">Mais vendidos</a>
+                <a href="./maisvendido.html" class="menu-nav__link">Mais vendidos</a>
             </div>
             <div>
-                <a href="./sobre_nos.html">Sobre nós</a>
+                <a href="./sobre_nos.html" class="menu-nav__link">Sobre nós</a>
             </div>
-            <div>
-                <a href="./carrinho.html"><img src="./img/sacola_fr.png" alt="Icone de Sacola"></a>
+            <div class="sacola">
+                <a href="./carrinho.html"><img src="./img/sacola_fr.png" alt="Icone de Sacola" class="sacola-icone"></a>
                 <p>Sacola</p>
             </div>
         </nav>
     </header>
+    <main >
+        <section class="painel">
+            <img src="img/sacola_fr.png" alt="carrinho" width="10%" class="icone-painel">            
+            <div class="img-descricao">
+                <img src="./img/produto_fr.png" alt="Osso de brinquedo" id="produto-venda">
+                <h2>Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - </h2>
+            </div> 
+                            <!--Calcular a quantidade de itens-->
+            <div class="painel-2"> 
+                <div class="cores">
+                    <!--Checkbox para cor do produto-->
+                    <h3>Cor</h3>
+                    <input type="radio" id="cor1_" name="cor-do-produto" value="vermelho">
+                    <label for="cor1_">Vermelho</label><br>
+                    <input type="radio" id="cor2_" name="cor-do-produto" value="azul">
+                    <label for="cor2_">Azul</label><br>
+                    <input type="radio" id="cor3_" name="cor-do-produto" value="verde">
+                    <label for="cor3_">Verde</label><br>
+                    <input type="radio" id="cor4_" name="cor-do-produto" value="amarelo">
+                    <label for="cor4_">Amarelo</label><br>
+                </div>
+                <div class="quantidade">
+                    <h3>Quantidade</h3>
+                    <input type="number" name="qtd_produt">
+                    <input type="button" value="Adicionar" onclick="add_produto()">
+                </div>
 
-    <main>
-        <section>            
-            <img src="./img/sacola_fr.png" alt="Ícone de Sacola">
-            <div>
-                <img src="./img/produto_fr.png" alt="Osso de brinquedo">
-                <h2>Detalhes do produto e informações relevantes sobre medida e peso</h2>
-            </div>            
-                <!--Calcular a quantidade de itens-->
-            <div>
-                <h3>Quantidade</h3>
-                <input type="number" name="qtd_produt">
-                <input type="button" value="Adicionar" onclick="add_()">
-            </div>
-            <div>
-                <!--Checkbox para cor do produto-->
-                <h3>Cor</h3>
-                <input type="checkbox" id="cor1_" name="cor1_" value="vermelho">
-                <label for="cor1_">Vermelho</label><br>
-                <input type="checkbox" id="cor2_" name="cor2_" value="azul">
-                <label for="cor2_">Azul</label><br>
-                <input type="checkbox" id="cor3_" name="cor3_" value="verde">
-                <label for="cor3_">Verde</label><br>
-                <input type="checkbox" id="cor4_" name="cor4_" value="amarelo">
-                <label for="cor4_">Amarelo</label><br>
-            </div>
-                <!--Calcular frete-->
-            <div>
-                <h4><label for="cep">Calcular frete</label></h4>
-                <input type="search" name="cep" placeholder="Digite o cep...">
-            </div>
+                    <!--Calcular frete-->
+                <div class="campo-frete">
+                    <h4><label for="cep">Calcular frete</label></h4>
+                    <input type="search" name="cep" placeholder="Digite o cep...">
+                    <input type="button" value="Calcular" onclick="calc_frete()">
+                </div>
 
-                <!--Calcular sutotal e total-->
-            <div>
-                <h4>Subtotal</h4>
-                <input type="text" id="subtotal_result">                               
-            </div>
-            <div>
-               <h4>Total</h4>
-               <input type="text" id="total_result">  
+                    <!--Calcular sutotal e total-->
+                <div class="subtotal">
+                    <h4>Subtotal</h4>
+                    <p>R$</p><input type="text" id="subtotal_result">                               
+                </div>
+                <div class="total">
+                <h4>Total</h4>
+                <p>R$</p><input type="text" id="total_result"> 
+                </div>
+                <input type="button" value="Finalizar pedido" onclick="calc_frete()" id="fazer-pedido"> 
             </div>
         </section>
-        <section>
-            <div>
-                <h3>Produtos relacionados</h3>                
-                <div>
-                    <img src="./img/produto_fr.png" alt="Osso de brinquedo">
-                    <h2>Osso de brinquedo</h2>
-                    <p>Informações</p>
-                    <p>R$19,99</p>
+        <section >
+            <h3>Produtos relacionados</h3>  
+            <div class="produtos-relacionados">              
+                <div class="card">
+                    <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                    <h2 class="card-titulo">Osso de brinquedo</h2>
+                    <p class="card-informacoes">Informações</p>
+                    <p class="card-valor">R$19,99</p>
                 </div>
-                <div>
-                    <img src="./img/produto_fr.png" alt="Osso de brinquedo">
-                    <h2>Osso de brinquedo</h2>
-                    <p>Informações</p>
-                    <p>R$19,99</p>
+                <div class="card">
+                    <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                    <h2 class="card-titulo">Osso de brinquedo</h2>
+                    <p class="card-informacoes">Informações</p>
+                    <p class="card-valor">R$19,99</p>
                 </div>
-                <div>
-                    <img src="./img/produto_fr.png" alt="Osso de brinquedo">
-                    <h2>Osso de brinquedo</h2>
-                    <p>Informações</p>
-                    <p>R$19,99</p>
-                </div>                
+                <div class="card">
+                    <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                    <h2 class="card-titulo">Osso de brinquedo</h2>
+                    <p class="card-informacoes">Informações</p>
+                    <p class="card-valor">R$19,99</p>
+                </div>
+                <div class="card">
+                    <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                    <h2 class="card-titulo">Osso de brinquedo</h2>
+                    <p class="card-informacoes">Informações</p>
+                    <p class="card-valor">R$19,99</p>
+                </div>
             </div>
         </section>
     </main> 
-    <footer>
+    <footer class="rodape">
+        
+        <h2 class="rodape-titulo">Porque a Pet Tudo?</h2>
+        
         <!--Seção de vantagens-->
-        <section>
-            <div>
+        <section class="rodape-secoes">
+            <div class="rodape-vantagens">
                 <img src="./img/fretegratis_fr.png" alt="Frete grátis">
-                <p>Frete grátis</p>
+                <p class="vantagens-frete">Frete grátis</p>
             </div>
-            <div>
+            <div class="rodape-vantagens">
                 <img src="./img/paguefacil_fr.png" alt="Pague fácil">
-                <p>Pague fácil</p>
+                <p class="vantagens-pagamento">Pague fácil</p>
             </div>
-            <div>
+            <div class="rodape-vantagens">
                 <img src="./img/menorpreco_fr.png" alt="Menor preço">
-                <p>Menor preço</p>
+                <p class="vantagens-preco">Menor preço</p>
             </div>
-            <div>
+            <div class="rodape-vantagens">
                 <img src="./img/cashback_fr.png" alt="Cash back">
-                <p>Cash back</p>
+                <p class="vantagens-cashback">Cash back</p>
             </div>
         </section>
+
         <!--Seção de informações-->
-        <section>
-            <div>
-                <h2>Contato</h2>
-                <p>Informações sobre o site</p>
-                <p>Informações sobre o site</p>
-                <p>Informações sobre o site</p>
-                <p>Informações sobre o site</p>
+
+        <section class="rodape-secoes">
+            <div class="rodape-info">
+                <h3 class="rodape-info__titulo">Contato</h3>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
             </div>
-            <div>
-                <h2>Destaques</h2>
-                <p>Informações sobre o site</p>
-                <p>Informações sobre o site</p>
-                <p>Informações sobre o site</p>
-                <p>Informações sobre o site</p>
+            <div class="rodape-info">
+                <h3 class="rodape-info__titulo">Destaques</h3>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
             </div>
-            <div>
-                <h2>Institucional</h2>
-                <p>Informações sobre o site</p>
-                <p>Informações sobre o site</p>
-                <p>Informações sobre o site</p>
-                <p>Informações sobre o site</p>
+            <div class="rodape-info">
+                <h3 class="rodape-info__titulo">Institucional</h3>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
             </div>
-            <div>
-                <h2>Redes Sociais</h2>
-                <p>Informações sobre o site</p>
-                <p>Informações sobre o site</p>
-                <p>Informações sobre o site</p>
-                <p>Informações sobre o site</p>
+            <div class="rodape-info">
+                <h3 class="rodape-info__titulo">Redes Sociais</h3>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
             </div>
+        </section>
+
+        <div class="rodape-pagamento">
             <img src="./img/pagamento_fr.png" alt="">
+        </div>
+        
+        <section class="rodape-secoes">
+            <p class="rodape-copy">&copy;PetTudo - Todos os direitos reservados</p>
         </section>
-        <section>
-            <p>&copy;PetTudo - Todos os direitos reservados</p>
-        </section>
-    </footer>   
+    </footer>
 </body>
 </html>
