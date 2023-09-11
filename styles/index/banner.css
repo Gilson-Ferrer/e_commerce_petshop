@@ -1,5 +1,9 @@
 @import url("/styles/styles.css");
 
+.secao-banner {
+    background-color: var(--cinza-card);
+}
+
 .banner {
     position: relative;
     display: inline-block;
