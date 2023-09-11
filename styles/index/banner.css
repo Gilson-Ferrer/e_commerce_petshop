@@ -1,0 +1,41 @@
+@import url("/styles/styles.css");
+
+.banner {
+    position: relative;
+    display: inline-block;
+}
+
+.banner-img {
+    width: 100%vw;
+    height: auto;
+}
+
+.banner-textos {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+}
+
+.banner-titulo__principal {
+    font-size: 3rem;
+    color: var(--cor-background-principal);
+    padding: 0.5em;
+}
+
+.banner-titulo__destaque {
+    color: var(--azul-banner);
+}
+
+.banner-desconto {
+    font-size: 6rem;
+    margin: 3em 1em 0 0;
+    text-transform: uppercase;
+    color: var(--azul-botao);
+}
+
+.banner-desconto__texto {
+    margin-left: 1em;
+    color: var(--cor-background-principal);
+}

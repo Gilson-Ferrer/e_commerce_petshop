@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/index/header.css">
-    <link rel="stylesheet" href="./styles/index/footer.css">
+    <link rel="stylesheet" href="./styles/index/banner.css">
     <link rel="stylesheet" href="./styles/index/card.css">
+    <link rel="stylesheet" href="./styles/index/footer.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -44,14 +45,16 @@
     <main>
         <!--Banner da index-->
         <section>
-            <div>
-                <img src="./img/imagen_index.png" alt="Banner da Loja Pet Tudo">
-                <div>
-                    <h2>Aqui você encontra tudo para o seu <strong>Pet!</strong></h2>
-                </div>
-                <div>
-                    <h3>40% off</h3>
-                    <p>Em todas as rações tipo premium</p>
+            <div class="banner">
+                <img src="./img/imagen_index.png" alt="Banner da Loja Pet Tudo" class="banner-img">
+                <div class="banner-textos">
+                    <div>
+                        <h2 class="banner-titulo__principal">Aqui você encontra tudo para o seu <strong class="banner-titulo__destaque">Pet!</strong></h2>
+                    </div>
+                    <div>
+                        <h3 class="banner-desconto">40% off</h3>
+                        <p class="banner-desconto__texto">Em todas as rações tipo premium</p>
+                    </div>
                 </div>
             </div>
             <div>
@@ -76,7 +79,7 @@
         
         <!-- Ainda será adicionado o plugin de carrosel para os cards desta seção --> 
 
-        <section>
+        <section class="secao-card">
             <div class="card">
                 <img src="./img/produto2_fr.png" alt="Potes para ração" class="card-imagem">
                 <h2 class="card-titulo">Potes para Ração</h2>
@@ -99,7 +102,7 @@
 
         <!--Seção de produtos-->
 
-        <section>
+        <section class="secao-card">
             <div class="card">
                 <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
                 <h2 class="card-titulo">Osso de brinquedo</h2>
