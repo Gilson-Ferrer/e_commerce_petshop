@@ -1,0 +1,18 @@
+@import url("/styles/styles.css");
+
+.secao-botao {
+    display: flex;
+    justify-content: center;
+    margin: 3em;
+}
+
+.botao {
+    padding: 2em;
+}
+
+.botao-estilo {
+    background-color: var(--cor-background-principal);
+    padding: 1em 1em;
+    width: 250px;
+    border-radius: 8px;
+}
