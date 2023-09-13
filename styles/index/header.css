@@ -8,6 +8,7 @@
     align-items: center;
     padding: 2em;
     background-color: var(--cinza-card);
+    height: 12em;
 }
 
 .menu-principal {
@@ -17,9 +18,32 @@
     align-items: center;
 }
 
-.menu-hamburguer__icone {
-    width: 30px;
-    height: 30px;
+.botao {
+    border: none;
+}
+
+.botao-icone {
+    width: 2em;
+    height: auto;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-botao {
+    padding: 0.25em;
+    height: 0.25em;
+}
+
+.menu-botao__link {
+    padding: 0.25em;
+    margin: 0.25em;
+}
+
+.menu-botao__link-a {
+    color: black;
+    text-decoration: none;
 }
 
 .logo__icone {

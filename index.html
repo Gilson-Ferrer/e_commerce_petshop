@@ -21,7 +21,16 @@
     <header class="cabecalho">
         <section class="menu-principal">
             <aside>
-                <img src="./img/icone-3-barras.svg" alt="Icone do aside" class="menu-hamburguer__icone">
+                <div class="aside-botao">
+                    <button id="menu-botao" class="botao"><img src="./img/icone-3-barras.svg" alt="" class="botao-icone"></button>
+                    <div id="menu">
+                        <ul class="menu-botao">
+                          <li class="menu-botao__link"><a href="#" class="menu-botao__link-a">Opção 1</a></li>
+                          <li class="menu-botao__link"><a href="#" class="menu-botao__link-a">Opção 2</a></li>
+                          <li class="menu-botao__link"><a href="#" class="menu-botao__link-a">Opção 3</a></li>
+                        </ul>
+                      </div>
+                </div>
             </aside>
             <h1><img src="./img/logo_pet-tudo-sem-fundo.png" alt="Logo da Loja Pet Tudo" class="logo__icone"></h1>
         </section>
@@ -225,5 +234,9 @@
             <p class="rodape-copy">&copy;PetTudo - Todos os direitos reservados</p>
         </section>
     </footer>
+
+    <!--JavaScript-->
+
+    <script src="js/menu-hamburguer.js"></script>
 </body>
 </html>
