@@ -18,6 +18,10 @@
     align-items: center;
 }
 
+.aside {
+    position: relative;
+}
+
 .botao {
     border: none;
 }
