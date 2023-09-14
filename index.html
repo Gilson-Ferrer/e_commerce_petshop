@@ -1,264 +1,240 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PetTudo</title>
-  <link rel="shortcut icon" type="imagex/png" href="./img/logo_pet-tudo-icone.ico" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Playfair+Display:wght@400;500;600;700;800;900&family=Questrial&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="./styles/reset.css" />
-  <link rel="stylesheet" href="./styles/styles.css" />
-  <link rel="stylesheet" href="./styles/index/header.css" />
-  <link rel="stylesheet" href="./styles/index/banner.css" />
-  <link rel="stylesheet" href="./styles/index/pesquisa.css" />
-  <link rel="stylesheet" href="./styles/index/botoes.css" />
-  <link rel="stylesheet" href="./styles/index/card.css" />
-  <link rel="stylesheet" href="./styles/index/footer.css" />
-  <script src="js/menu-hamburguer.js" defer></script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetTudo</title>
+    <link rel="shortcut icon" type="imagex/png" href="./img/logo_pet-tudo-icone.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Playfair+Display:wght@400;500;600;700;800;900&family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/index/header.css">
+    <link rel="stylesheet" href="./styles/index/banner.css">
+    <link rel="stylesheet" href="./styles/index/pesquisa.css">
+    <link rel="stylesheet" href="./styles/index/botoes.css">
+    <link rel="stylesheet" href="./styles/index/card.css">
+    <link rel="stylesheet" href="./styles/index/footer.css">
+    <script src="js/menu-hamburguer.js" defer></script>
 </head>
-
 <body>
-  <header class="cabecalho">
-    <section class="menu-principal">
-      <aside class="aside">
-        <div class="aside-botao">
-          <button id="menu-botao" class="botao">
-            <img src="./img/icone-3-barras.svg" alt="" class="botao-icone" />
-          </button>
-          <div id="menu">
-            <ul class="menu-botao">
-              <li class="menu-botao__link">
-                <a href="#" class="menu-botao__link-a">Opção 1</a>
-              </li>
-              <li class="menu-botao__link">
-                <a href="#" class="menu-botao__link-a">Opção 2</a>
-              </li>
-              <li class="menu-botao__link">
-                <a href="#" class="menu-botao__link-a">Opção 3</a>
-              </li>
-            </ul>
-          </div>
+    <header class="cabecalho">
+        <section class="menu-principal">
+            <aside class="aside">
+                <div class="aside-botao">
+                    <button id="menu-botao" class="botao"><img src="./img/icone-3-barras.svg" alt="" class="botao-icone"></button>
+                    <div id="menu">
+                        <ul class="menu-botao">
+                          <li class="menu-botao__link"><a href="#" class="menu-botao__link-a">Opção 1</a></li>
+                          <li class="menu-botao__link"><a href="#" class="menu-botao__link-a">Opção 2</a></li>
+                          <li class="menu-botao__link"><a href="#" class="menu-botao__link-a">Opção 3</a></li>
+                        </ul>
+                      </div>
+                </div>
+            </aside>
+            <h1><img src="./img/logo_pet-tudo-sem-fundo.png" alt="Logo da Loja Pet Tudo" class="logo__icone"></h1>
+        </section>
+        <nav class="menu-nav">
+            <div>
+                <a href="./index.html" class="menu-nav__link">Home</a>
+            </div>
+            <div>
+                <a href="./promocao.html" class="menu-nav__link">Promoção</a>
+            </div>
+            <div>
+                <a href="./maisvendido.html" class="menu-nav__link">Mais vendidos</a>
+            </div>
+            <div>
+                <a href="./sobre_nos.html" class="menu-nav__link">Sobre nós</a>
+            </div>
+            <div class="sacola">
+                <a href="./carrinho.html"><img src="./img/sacola_fr.png" alt="Icone de Sacola" class="sacola-icone"></a>
+                <p>Sacola</p>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--Banner da index-->
+        <section class="secao-banner">
+            <div class="banner">
+                <img src="./img/imagen_index.png" alt="Banner da Loja Pet Tudo" class="banner-img">
+                <div class="banner-textos">
+                    <div>
+                        <h2 class="banner-titulo__principal">Aqui você encontra tudo para o seu <strong class="banner-titulo__destaque">Pet!</strong></h2>
+                    </div>
+                    <div>
+                        <h3 class="banner-desconto">40% off</h3>
+                        <p class="banner-desconto__texto">Em todas as rações tipo premium</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Pesquisa-->
+
+        <section>
+            <div class="pesquisa">
+                <input type="search" name="busca" placeholder="Buscar..." class="pesquisa-input">
+                    <img src="./img/icone-de-pesquisa.svg" alt="Icone de Pesquisa" class="pesquisa-icone">
+                </div>
+        </section>
+
+        <!--Botões-->
+
+        <section class="secao-botao">
+            <div class="botao">
+                <button type="button" class="botao-estilo">Promoção</button>
+            </div>
+            <div class="botao">
+                <button type="button" class="botao-estilo">Mais vendidos</button>
+            </div>
+            <div class="botao">
+                <button type="button" class="botao-estilo">Categoria</button>
+            </div>
+        </section>
+        
+        <!-- Ainda será adicionado o plugin de carrosel para os cards desta seção --> 
+
+        <section class="secao-card">
+            <div class="card">
+                <img src="./img/produto2_fr.png" alt="Potes para ração" class="card-imagem">
+                <h2 class="card-titulo">Potes para Ração</h2>
+                <p class="card-informacoes">Informações</p>
+                <p class="card-valor">R$19,99</p>
+            </div>
+            <div class="card">
+                <img src="./img/produto2_fr.png" alt="Potes para ração" class="card-imagem">
+                <h2 class="card-titulo">Potes para Ração</h2>
+                <p class="card-informacoes">Informações</p>
+                <p class="card-valor">R$19,99</p>
+            </div>
+            <div class="card">
+                <img src="./img/produto2_fr.png" alt="Potes para ração" class="card-imagem">
+                <h2 class="card-titulo">Potes para Ração</h2>
+                <p class="card-informacoes">Informações</p>
+                <p class="card-valor">R$19,99</p>
+            </div>
+        </section>
+
+        <!--Seção de produtos-->
+
+        <section class="secao-card">
+            <div class="card">
+                <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                <h2 class="card-titulo">Osso de brinquedo</h2>
+                <p class="card-informacoes">Informações</p>
+                <p class="card-valor">R$19,99</p>
+            </div>
+            <div class="card">
+                <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                <h2 class="card-titulo">Osso de brinquedo</h2>
+                <p class="card-informacoes">Informações</p>
+                <p class="card-valor">R$19,99</p>
+            </div>
+            <div class="card">
+                <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                <h2 class="card-titulo">Osso de brinquedo</h2>
+                <p class="card-informacoes">Informações</p>
+                <p class="card-valor">R$19,99</p>
+            </div>
+            <div class="card">
+                <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                <h2 class="card-titulo">Osso de brinquedo</h2>
+                <p class="card-informacoes">Informações</p>
+                <p class="card-valor">R$19,99</p>
+            </div>
+            <div class="card">
+                <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                <h2 class="card-titulo">Osso de brinquedo</h2>
+                <p class="card-informacoes">Informações</p>
+                <p class="card-valor">R$19,99</p>
+            </div>
+            <div class="card">
+                <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                <h2 class="card-titulo">Osso de brinquedo</h2>
+                <p class="card-informacoes">Informações</p>
+                <p class="card-valor">R$19,99</p>
+            </div>
+            <div class="card">
+                <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                <h2 class="card-titulo">Osso de brinquedo</h2>
+                <p class="card-informacoes">Informações</p>
+                <p class="card-valor">R$19,99</p>
+            </div>
+            <div class="card">
+                <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                <h2 class="card-titulo">Osso de brinquedo</h2>
+                <p class="card-informacoes">Informações</p>
+                <p class="card-valor">R$19,99</p>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        
+        <h2 class="rodape-titulo">Porque a Pet Tudo?</h2>
+        
+        <!--Seção de vantagens-->
+        <section class="rodape-secoes">
+            <div class="rodape-vantagens">
+                <img src="./img/fretegratis_fr.png" alt="Frete grátis">
+                <p class="vantagens-frete">Frete grátis</p>
+            </div>
+            <div class="rodape-vantagens">
+                <img src="./img/paguefacil_fr.png" alt="Pague fácil">
+                <p class="vantagens-pagamento">Pague fácil</p>
+            </div>
+            <div class="rodape-vantagens">
+                <img src="./img/menorpreco_fr.png" alt="Menor preço">
+                <p class="vantagens-preco">Menor preço</p>
+            </div>
+            <div class="rodape-vantagens">
+                <img src="./img/cashback_fr.png" alt="Cash back">
+                <p class="vantagens-cashback">Cash back</p>
+            </div>
+        </section>
+
+        <!--Seção de informações-->
+
+        <section class="rodape-secoes">
+            <div class="rodape-info">
+                <h3 class="rodape-info__titulo">Contato</h3>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+            </div>
+            <div class="rodape-info">
+                <h3 class="rodape-info__titulo">Destaques</h3>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+            </div>
+            <div class="rodape-info">
+                <h3 class="rodape-info__titulo">Institucional</h3>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+            </div>
+            <div class="rodape-info">
+                <h3 class="rodape-info__titulo">Redes Sociais</h3>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+                <p class="rodape-info__texto">Informações sobre o site</p>
+            </div>
+        </section>
+
+        <div class="rodape-pagamento">
+            <img src="./img/pagamento_fr.png" alt="">
         </div>
-      </aside>
-      <h1>
-        <img src="./img/logo_pet-tudo-sem-fundo.png" alt="Logo da Loja Pet Tudo" class="logo__icone" />
-      </h1>
-    </section>
-    <nav class="menu-nav">
-      <div>
-        <a href="./index.html" class="menu-nav__link">Home</a>
-      </div>
-      <div>
-        <a href="./promocao.html" class="menu-nav__link">Promoção</a>
-      </div>
-      <div>
-        <a href="./maisvendido.html" class="menu-nav__link">Mais vendidos</a>
-      </div>
-      <div>
-        <a href="./sobre_nos.html" class="menu-nav__link">Sobre nós</a>
-      </div>
-      <div class="sacola">
-        <a href="./carrinho.html"><img src="./img/sacola_fr.png" alt="Icone de Sacola" class="sacola-icone" /></a>
-        <p>Sacola</p>
-      </div>
-    </nav>
-  </header>
+        
+        <section class="rodape-secoes">
+            <p class="rodape-copy">&copy;PetTudo - Todos os direitos reservados</p>
+        </section>
 
-  <main>
-
-    <!--Banner da index-->
-
-    <section class="secao-banner">
-      <div class="banner">
-        <img src="./img/imagen_index.png" alt="Banner da Loja Pet Tudo" class="banner-img" />
-        <div class="banner-textos">
-          <div>
-            <h2 class="banner-titulo__principal">
-              Aqui você encontra tudo para o seu
-              <strong class="banner-titulo__destaque">Pet!</strong>
-            </h2>
-          </div>
-          <div>
-            <h3 class="banner-desconto">40% off</h3>
-            <p class="banner-desconto__texto">
-              Em todas as rações tipo premium
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--Pesquisa-->
-
-    <section>
-      <div class="pesquisa">
-        <input type="search" name="busca" placeholder="Buscar..." class="pesquisa-input" />
-        <img src="./img/icone-de-pesquisa.svg" alt="Icone de Pesquisa" class="pesquisa-icone" />
-      </div>
-    </section>
-
-    <!--Botões-->
-
-    <section class="secao-botao">
-      <div class="botao">
-        <button type="button" class="botao-estilo">Promoção</button>
-      </div>
-      <div class="botao">
-        <button type="button" class="botao-estilo">Mais vendidos</button>
-      </div>
-      <div class="botao">
-        <button type="button" class="botao-estilo">Categoria</button>
-      </div>
-    </section>
-
-    <!-- Ainda será adicionado o plugin de carrosel para os cards desta seção -->
-
-    <section class="secao-card">
-      <div class="card">
-        <img src="./img/produto2_fr.png" alt="Potes para ração" class="card-imagem" />
-        <h2 class="card-titulo">Potes para Ração</h2>
-        <p class="card-informacoes">Informações</p>
-        <p class="card-valor">R$19,99</p>
-      </div>
-      <div class="card">
-        <img src="./img/produto2_fr.png" alt="Potes para ração" class="card-imagem" />
-        <h2 class="card-titulo">Potes para Ração</h2>
-        <p class="card-informacoes">Informações</p>
-        <p class="card-valor">R$19,99</p>
-      </div>
-      <div class="card">
-        <img src="./img/produto2_fr.png" alt="Potes para ração" class="card-imagem" />
-        <h2 class="card-titulo">Potes para Ração</h2>
-        <p class="card-informacoes">Informações</p>
-        <p class="card-valor">R$19,99</p>
-      </div>
-    </section>
-
-    <!--Seção de produtos-->
-
-    <section class="secao-card">
-      <div class="card">
-        <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem" />
-        <h2 class="card-titulo">Osso de brinquedo</h2>
-        <p class="card-informacoes">Informações</p>
-        <p class="card-valor">R$19,99</p>
-      </div>
-      <div class="card">
-        <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem" />
-        <h2 class="card-titulo">Osso de brinquedo</h2>
-        <p class="card-informacoes">Informações</p>
-        <p class="card-valor">R$19,99</p>
-      </div>
-      <div class="card">
-        <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem" />
-        <h2 class="card-titulo">Osso de brinquedo</h2>
-        <p class="card-informacoes">Informações</p>
-        <p class="card-valor">R$19,99</p>
-      </div>
-      <div class="card">
-        <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem" />
-        <h2 class="card-titulo">Osso de brinquedo</h2>
-        <p class="card-informacoes">Informações</p>
-        <p class="card-valor">R$19,99</p>
-      </div>
-      <div class="card">
-        <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem" />
-        <h2 class="card-titulo">Osso de brinquedo</h2>
-        <p class="card-informacoes">Informações</p>
-        <p class="card-valor">R$19,99</p>
-      </div>
-      <div class="card">
-        <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem" />
-        <h2 class="card-titulo">Osso de brinquedo</h2>
-        <p class="card-informacoes">Informações</p>
-        <p class="card-valor">R$19,99</p>
-      </div>
-      <div class="card">
-        <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem" />
-        <h2 class="card-titulo">Osso de brinquedo</h2>
-        <p class="card-informacoes">Informações</p>
-        <p class="card-valor">R$19,99</p>
-      </div>
-      <div class="card">
-        <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem" />
-        <h2 class="card-titulo">Osso de brinquedo</h2>
-        <p class="card-informacoes">Informações</p>
-        <p class="card-valor">R$19,99</p>
-      </div>
-    </section>
-  </main>
-  <footer class="rodape">
-    <h2 class="rodape-titulo">Porque a Pet Tudo?</h2>
-
-    <!--Seção de vantagens-->
-
-    <section class="rodape-secoes">
-      <div class="rodape-vantagens">
-        <img src="./img/fretegratis_fr.png" alt="Frete grátis" />
-        <p class="vantagens-frete">Frete grátis</p>
-      </div>
-      <div class="rodape-vantagens">
-        <img src="./img/paguefacil_fr.png" alt="Pague fácil" />
-        <p class="vantagens-pagamento">Pague fácil</p>
-      </div>
-      <div class="rodape-vantagens">
-        <img src="./img/menorpreco_fr.png" alt="Menor preço" />
-        <p class="vantagens-preco">Menor preço</p>
-      </div>
-      <div class="rodape-vantagens">
-        <img src="./img/cashback_fr.png" alt="Cash back" />
-        <p class="vantagens-cashback">Cash back</p>
-      </div>
-    </section>
-
-    <!--Seção de informações-->
-
-    <section class="rodape-secoes">
-      <div class="rodape-info">
-        <h3 class="rodape-info__titulo">Contato</h3>
-        <p class="rodape-info__texto">Informações sobre o site</p>
-        <p class="rodape-info__texto">Informações sobre o site</p>
-        <p class="rodape-info__texto">Informações sobre o site</p>
-        <p class="rodape-info__texto">Informações sobre o site</p>
-      </div>
-      <div class="rodape-info">
-        <h3 class="rodape-info__titulo">Destaques</h3>
-        <p class="rodape-info__texto">Informações sobre o site</p>
-        <p class="rodape-info__texto">Informações sobre o site</p>
-        <p class="rodape-info__texto">Informações sobre o site</p>
-        <p class="rodape-info__texto">Informações sobre o site</p>
-      </div>
-      <div class="rodape-info">
-        <h3 class="rodape-info__titulo">Institucional</h3>
-        <p class="rodape-info__texto">Informações sobre o site</p>
-        <p class="rodape-info__texto">Informações sobre o site</p>
-        <p class="rodape-info__texto">Informações sobre o site</p>
-        <p class="rodape-info__texto">Informações sobre o site</p>
-      </div>
-      <div class="rodape-info">
-        <h3 class="rodape-info__titulo">Redes Sociais</h3>
-        <p class="rodape-info__texto">Informações sobre o site</p>
-        <p class="rodape-info__texto">Informações sobre o site</p>
-        <p class="rodape-info__texto">Informações sobre o site</p>
-        <p class="rodape-info__texto">Informações sobre o site</p>
-      </div>
-    </section>
-
-    <div class="rodape-pagamento">
-      <img src="./img/pagamento_fr.png" alt="" />
-    </div>
-
-    <section class="rodape-secoes">
-      <p class="rodape-copy">&copy;PetTudo - Todos os direitos reservados</p>
-    </section>
-    
-  </footer>
+    </footer>
 </body>
-
 </html>
