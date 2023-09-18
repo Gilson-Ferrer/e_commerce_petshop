@@ -9,6 +9,24 @@
     margin: 1em 10%;
 }
 
+.carrossel-cards {
+    position: relative;
+    overflow: hidden;
+}
+
+.carrossel-flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrossel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -48,4 +66,9 @@
     font-size: 1.25rem;
     padding: 1em 0.75em;
     color: var(--laranja-card);
+}
+
+#prevButton, #nextButton {
+    margin: 10px;
+    cursor: pointer;
 }

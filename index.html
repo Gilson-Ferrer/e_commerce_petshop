@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./styles/index/card.css">
     <link rel="stylesheet" href="./styles/index/footer.css">
     <script src="js/menu-hamburguer.js" defer></script>
+    <script src="js/carrossel.js" defer></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -96,24 +97,48 @@
         
         <!-- Ainda será adicionado o plugin de carrosel para os cards desta seção --> 
 
-        <section class="secao-card">
-            <div class="card">
-                <img src="./img/produto2_fr.png" alt="Potes para ração" class="card-imagem">
-                <h2 class="card-titulo">Potes para Ração</h2>
-                <p class="card-informacoes">Informações</p>
-                <p class="card-valor">R$19,99</p>
-            </div>
-            <div class="card">
-                <img src="./img/produto2_fr.png" alt="Potes para ração" class="card-imagem">
-                <h2 class="card-titulo">Potes para Ração</h2>
-                <p class="card-informacoes">Informações</p>
-                <p class="card-valor">R$19,99</p>
-            </div>
-            <div class="card">
-                <img src="./img/produto2_fr.png" alt="Potes para ração" class="card-imagem">
-                <h2 class="card-titulo">Potes para Ração</h2>
-                <p class="card-informacoes">Informações</p>
-                <p class="card-valor">R$19,99</p>
+        <section class="secao-card carrosel-cards">
+            <div class="carrosel-flex">
+                <div class="carrossel-container">
+                    <div class="card">
+                        <img src="./img/produto2_fr.png" alt="Potes para ração" class="card-imagem">
+                        <h2 class="card-titulo">Potes para Ração</h2>
+                        <p class="card-informacoes">Informações</p>
+                        <p class="card-valor">R$19,99</p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                        <h2 class="card-titulo">Osso de brinquedo</h2>
+                        <p class="card-informacoes">Informações</p>
+                        <p class="card-valor">R$19,99</p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/produto2_fr.png" alt="Potes para ração" class="card-imagem">
+                        <h2 class="card-titulo">Potes para Ração</h2>
+                        <p class="card-informacoes">Informações</p>
+                        <p class="card-valor">R$19,99</p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                        <h2 class="card-titulo">Osso de brinquedo</h2>
+                        <p class="card-informacoes">Informações</p>
+                        <p class="card-valor">R$19,99</p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/produto2_fr.png" alt="Potes para ração" class="card-imagem">
+                        <h2 class="card-titulo">Potes para Ração</h2>
+                        <p class="card-informacoes">Informações</p>
+                        <p class="card-valor">R$19,99</p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                        <h2 class="card-titulo">Osso de brinquedo</h2>
+                        <p class="card-informacoes">Informações</p>
+                        <p class="card-valor">R$19,99</p>
+                    </div>
+                </div>
+                <button id="prevButton"><img src="/img/arrow_back_FILL0_wght400_GRAD0_opsz24.svg" alt="icone de voltar"></button>
+                <button id="nextButton"><img src="/img/arrow_forward_FILL0_wght400_GRAD0_opsz24.svg" alt="icone de avançar"></button>
             </div>
         </section>
 
