@@ -51,16 +51,16 @@ https://www.loopnerd.com.br/codigos-html-prontos/ -> site para consulta de html
 
 		* carrinho 
 		* imagens (tratamento)
-
-	Felipe
-
 		* compra realizada
-		* sobre nós
+
+	Felipe (SAIU DA TURMA EM 19/09/2023)
+
 	
 	Jorge 
 
 		* mais vendidos
 		* promoção
+		* sobre nós
 	
 	Vinícius 
 
