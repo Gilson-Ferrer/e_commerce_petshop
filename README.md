@@ -23,6 +23,11 @@ https://www.loopnerd.com.br/codigos-html-prontos/ -> site para consulta de html
 			Estrutura criada pelo vinícius, e definida como padrão para replicar as outras páginas.
 
 
+	3. reunião relizada em 19/09/2023 -> definições de menu hamburguer e responsividade. -> OK
+
+			Escolha e definição em comum acordo para nova divisão de tarefas e detalhamento de menu com responsividade (remover carrossel quando responsivo e estruturar cards em 1 ou 2 por vez, sobreposição do menu hamburguer no background)
+
+
 
 
 
@@ -51,16 +56,16 @@ https://www.loopnerd.com.br/codigos-html-prontos/ -> site para consulta de html
 
 		* carrinho 
 		* imagens (tratamento)
-
-	Felipe
-
 		* compra realizada
-		* sobre nós
+
+	Felipe (SAIU DA TURMA EM 19/09/2023)
+
 	
 	Jorge 
 
 		* mais vendidos
 		* promoção
+		* sobre nós
 	
 	Vinícius 
 
