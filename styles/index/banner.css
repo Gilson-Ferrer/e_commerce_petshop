@@ -5,30 +5,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .banner {
-    position: relative;
-    display: inline-block;
-}
-
-.banner-img {
-    width: 100%vw;
-    height: auto;
-}
-
-.banner-textos {
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 1em;
+    background-image: url("/img/imagen_index.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .banner-titulo__principal {
     font-size: 3rem;
     color: var(--cor-background-principal);
-    padding: 0.5em;
+    padding-top: 10%;
 }
 
 .banner-titulo__destaque {
@@ -36,13 +28,14 @@
 }
 
 .banner-desconto {
+    padding-top: 4em;
+    margin-right: 25%;
     font-size: 6rem;
-    margin: 3em 1em 0 0;
     text-transform: uppercase;
     color: var(--azul-botao);
 }
 
 .banner-desconto__texto {
-    margin-left: 1em;
+    margin-right: 25%;
     color: var(--cor-background-principal);
 }

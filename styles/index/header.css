@@ -3,12 +3,11 @@
 .cabecalho {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     align-items: center;
     padding: 2em;
     background-color: var(--cinza-card);
-    height: 12em;
 }
 
 .menu-principal {
@@ -20,6 +19,8 @@
 
 .aside {
     position: relative;
+    background-color: var(--cinza-card);
+    align-self: start;
 }
 
 .botao {
@@ -41,6 +42,8 @@
 }
 
 .menu-botao__link {
+    background-color: var(--cinza-card);
+    border: 1px solid black;
     padding: 0.25em;
     margin: 0.25em;
 }
