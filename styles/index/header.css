@@ -6,7 +6,6 @@
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    padding: 2em;
     background-color: var(--cinza-card);
 }
 
@@ -28,7 +27,7 @@
 }
 
 .botao-icone {
-    width: 2em;
+    width: 1.5em;
     height: auto;
 }
 
@@ -44,8 +43,8 @@
 .menu-botao__link {
     background-color: var(--cinza-card);
     border: 1px solid black;
-    padding: 0.25em;
-    margin: 0.25em;
+    padding: 0 0.25em;
+    margin: 0 0.25em;
 }
 
 .menu-botao__link-a {
@@ -70,6 +69,7 @@
     margin: 0 0.5em;
     text-decoration: none;
     color: black;
+    font-size: 1.25rem;
 }
 
 .sacola {
@@ -81,4 +81,8 @@
 .sacola-icone {
     width: 50px;
     height: auto;
+}
+
+.sacola-texto {
+    font-size: 1.25rem;
 }
