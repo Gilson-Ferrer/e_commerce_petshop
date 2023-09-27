@@ -7,6 +7,7 @@
     text-align: center;
     align-items: center;
     background-color: var(--cinza-card);
+    width: 100%;
 }
 
 .menu-principal {
@@ -62,6 +63,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-right: 1em;
 }
 
 .menu-nav__link {
@@ -69,7 +71,6 @@
     margin: 0 0.5em;
     text-decoration: none;
     color: black;
-    font-size: 1.25rem;
 }
 
 .sacola {
@@ -86,3 +87,165 @@
 .sacola-texto {
     font-size: 1.25rem;
 }
+
+@media screen and (max-width: 1100px) {
+    
+    .botao-icone {
+        width: 1.25em;
+    }
+
+    .menu-botao {
+        padding: 0.2em;
+        height: 0.2em;
+    }
+
+    .menu-botao__link {
+        padding: 0 0.2em;
+        margin: 0 0.2em;
+    }
+
+    .logo__icone {
+        width: 250px;
+    }
+
+    .nav-links a {
+        font-size: 0.75rem;
+    }
+
+    .menu-nav__link {
+        padding: 0 0.4em;
+        margin: 0 0.4em;
+    }
+
+    .sacola-icone {
+        width: 40px;
+        height: auto;
+    }
+    
+    .sacola-texto {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    .botao-icone {
+        width: 1em;
+    }
+
+    .menu-botao {
+        padding: 0.15em;
+        height: 0.15em;
+    }
+
+    .menu-botao__link {
+        padding: 0 0.15em;
+        margin: 0 0.15em;
+    }
+
+    .logo__icone {
+        width: 170px;
+    }
+
+    .menu-nav__link {
+        padding: 0 0.3em;
+        margin: 0 0.3em;
+    }
+
+    .sacola-icone {
+        width: 35px;
+        height: auto;
+    }
+    
+    .sacola-texto {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    .botao-icone {
+        width: 0.75em;
+    }
+
+    .menu-botao {
+        padding: 0.1em;
+        height: 0.1em;
+    }
+
+    .menu-botao__link {
+        padding: 0 0.1em;
+        margin: 0 0.1em;
+    }
+
+    .menu-botao__link-a {
+        font-size: 0.1rem;
+    }
+
+    .logo__icone {
+        width: 150px;
+    }
+
+    .menu-nav__link {
+        padding: 0 0.2em;
+        margin: 0 0.2em;
+    }
+
+    .sacola-icone {
+        width: 30px;
+        height: auto;
+    }
+    
+    .sacola-texto {
+        display: none;
+    }
+
+    .nav-links a {
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    
+    .botao-icone {
+        width: 0.6em;
+    }
+
+    .menu-botao {
+        padding: 0.1em;
+        height: 0.1em;
+    }
+
+    .menu-botao__link {
+        padding: 0 0.1em;
+        margin: 0 0.1em;
+    }
+
+    .menu-botao__link-a {
+        font-size: 0.1rem;
+    }
+
+    .logo__icone {
+        width: 120px;
+    }
+
+    .menu-nav__link {
+        padding: 0 0.2em;
+        margin: 0 0.2em;
+    }
+
+    .menu-botao__link 
+
+    
+
+    .sacola-icone {
+        width: 30px;
+        height: auto;
+    }
+    
+    .sacola-texto {
+        display: none;
+    }
+}
+
+

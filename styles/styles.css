@@ -17,5 +17,10 @@
 }
 
 body {
+    overflow-x: hidden;
     font-family: var(--fonte-chau);
+}
+
+.main {
+    width: 100%;
 }
