@@ -1,0 +1,35 @@
+#texto-compra-realizada{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#imagem-compra-ok{
+    align-self: center;
+    padding: 2rem 0 0 0;
+    
+}
+
+.texto-itens-comprados h2{
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.texto-itens-comprados li{
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+}
+
+.texto-entrega h2{
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.texto-entrega div{
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+}
+
+.texto-valor-total{
+    align-self: flex-end;
+    font-size: 2rem;
+}

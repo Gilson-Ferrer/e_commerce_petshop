@@ -12,60 +12,79 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/index/header.css">
     <link rel="stylesheet" href="./styles/index/footer.css">
+    <link rel="stylesheet" href="./styles/index/botoes.css">
     <link rel="stylesheet" href="./styles/index/card.css">
+    <link rel="stylesheet" href="./styles/painel-carrinho.css">
+    <link rel="stylesheet" href="./styles/index/compra_realizada.css">
+    <script src="js/menu-hamburguer.js" defer></script>
+    <script src="js/carrossel.js" defer></script>
 
 </head>
+
 <body>
-    <header>
-        <section>
-            <aside>
-                <img src="./img/icone-3-barras.svg" alt="Icone do aside">
+    <header class="cabecalho">
+        <section class="menu-principal">
+            <aside class="aside">
+                <div class="aside-botao">
+                    <button id="menu-botao" class="botao"><img src="./img/icone-3-barras.svg" alt="" class="botao-icone"></button>
+                    <div id="menu">
+                        <ul class="menu-botao">
+                          <li class="menu-botao__link">
+                            <a href="#" class="menu-botao__link-a">Opção 1</a>
+                        </li>
+                          <li class="menu-botao__link">
+                            <a href="#" class="menu-botao__link-a">Opção 2</a>
+                        </li>
+                          <li class="menu-botao__link">
+                            <a href="#" class="menu-botao__link-a">Opção 3</a>
+                        </li>
+                        </ul>
+                      </div>
+                </div>
             </aside>
-            <h1><img src="./img/logo_pet-tudo-sem-fundo.png" alt="Logo da Loja Pet Tudo"></h1>
+            <h1><img src="./img/logo_pet-tudo-sem-fundo.png" alt="Logo da Loja Pet Tudo" class="logo__icone"></h1>
         </section>
-        <nav>
-            <div>
-                <a href="./index.html">Home</a>
+        <nav class="menu-nav">
+            <div class="nav-links">
+                <a href="./index.html" class="menu-nav__link" id="home">Home</a>
             </div>
-            <div>
-                <a href="./promocao.html">Promoção</a>
+            <div class="nav-links">
+                <a href="./promocao.html" class="menu-nav__link">Promoção</a>
             </div>
-            <div>
-                <a href="./maisvendido.html">Mais vendidos</a>
+            <div class="nav-links">
+                <a href="./maisvendido.html" class="menu-nav__link">Mais vendidos</a>
             </div>
-            <div>
-                <a href="./sobre_nos.html">Sobre nós</a>
+            <div class="nav-links">
+                <a href="./sobre_nos.html" class="menu-nav__link">Sobre nós</a>
             </div>
-            <div>
-                <a href="./carrinho.html"><img src="./img/sacola_fr.png" alt="Icone de Sacola"></a>
-                <p>Sacola</p>
+            <div class="sacola">
+                <a href="./carrinho.html"><img src="./img/sacola_fr.png" alt="Icone de Sacola" class="sacola-icone"></a>
+                <p class="sacola-texto">Sacola</p>
             </div>
         </nav>
     </header>
     <main>
         <section>
-            <div>
+            <section class="painel">
+                <img src="img/sacola_fr.png" alt="carrinho" width="10%" class="icone-painel"> 
+            <div id="texto-compra-realizada">
                 <h1>Compra realizada com sucesso!</h1>
             </div>
-            <div>
+            <div id="imagem-compra-ok">
                 <img src="./img/certo.png">
             </div>
-            <div>
+            <div class="texto-itens-comprados">
                 <h2>Itens Comprados</h2>
                 <ul>
                     <li>Descrição de itens comprados</li>
-                    <li>Descrição de itens comprados</li>
-                    <li>Descrição de itens comprados</li>
                 </ul>
             </div>
-            <div>
+            <div class="texto-entrega">
                 <h2>Entrega</h2>
-                <ul>
-                    <li>Cep da entrega</li>
-                </ul>
+                <div>Cep da entrega</div>
             </div>
-            <div>
-                <h1>Total: R$ 249,90</h1>
+            <div class="texto-valor-total">
+                <h1>Total: R$ <span>249,90</span></h1>
             </div>
 
         </section>
@@ -73,34 +92,33 @@
         <!--Seção de produtos-->
 
         <section>
-            <div>
-                <button type="button">Você pode gostar desses produtos</button>
+            <h3>Você pode gostar desses produtos</h3>  
+            <div class="produtos-relacionados">              
+                <div class="card">
+                    <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                    <h2 class="card-titulo">Osso de brinquedo</h2>
+                    <p class="card-informacoes">Informações</p>
+                    <p class="card-valor">R$19,99</p>
+                </div>
+                <div class="card">
+                    <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                    <h2 class="card-titulo">Osso de brinquedo</h2>
+                    <p class="card-informacoes">Informações</p>
+                    <p class="card-valor">R$19,99</p>
+                </div>
+                <div class="card">
+                    <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                    <h2 class="card-titulo">Osso de brinquedo</h2>
+                    <p class="card-informacoes">Informações</p>
+                    <p class="card-valor">R$19,99</p>
+                </div>
+                <div class="card">
+                    <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
+                    <h2 class="card-titulo">Osso de brinquedo</h2>
+                    <p class="card-informacoes">Informações</p>
+                    <p class="card-valor">R$19,99</p>
+                </div>
             </div>
-            <div>
-                <img src="./img/produto_fr.png" alt="Osso de brinquedo">
-                <h2>Osso de brinquedo</h2>
-                <p>Informações</p>
-                <p>R$19,99</p>
-            </div>
-            <div>
-                <img src="./img/produto_fr.png" alt="Osso de brinquedo">
-                <h2>Osso de brinquedo</h2>
-                <p>Informações</p>
-                <p>R$19,99</p>
-            </div>
-            <div>
-                <img src="./img/produto_fr.png" alt="Osso de brinquedo">
-                <h2>Osso de brinquedo</h2>
-                <p>Informações</p>
-                <p>R$19,99</p>
-            </div>
-            <div>
-                <img src="./img/produto_fr.png" alt="Osso de brinquedo">
-                <h2>Osso de brinquedo</h2>
-                <p>Informações</p>
-                <p>R$19,99</p>
-            </div>
-            
         </section>
     </main>
     <footer class="rodape">
@@ -110,19 +128,19 @@
         <!--Seção de vantagens-->
         <section class="rodape-secoes">
             <div class="rodape-vantagens">
-                <img src="./img/fretegratis_fr.png" alt="Frete grátis">
+                <img src="./img/fretegratis_fr.png" alt="Frete grátis" class="icone-vantagens">
                 <p class="vantagens-frete">Frete grátis</p>
             </div>
             <div class="rodape-vantagens">
-                <img src="./img/paguefacil_fr.png" alt="Pague fácil">
+                <img src="./img/paguefacil_fr.png" alt="Pague fácil" class="icone-vantagens">
                 <p class="vantagens-pagamento">Pague fácil</p>
             </div>
             <div class="rodape-vantagens">
-                <img src="./img/menorpreco_fr.png" alt="Menor preço">
+                <img src="./img/menorpreco_fr.png" alt="Menor preço" class="icone-vantagens">
                 <p class="vantagens-preco">Menor preço</p>
             </div>
             <div class="rodape-vantagens">
-                <img src="./img/cashback_fr.png" alt="Cash back">
+                <img src="./img/cashback_fr.png" alt="Cash back" class="icone-vantagens">
                 <p class="vantagens-cashback">Cash back</p>
             </div>
         </section>
@@ -161,12 +179,13 @@
         </section>
 
         <div class="rodape-pagamento">
-            <img src="./img/pagamento_fr.png" alt="">
+            <img src="./img/pagamento_fr.png" alt="Opções de pagamento" class="rodape-pagamento_icone">
         </div>
         
         <section class="rodape-secoes">
             <p class="rodape-copy">&copy;PetTudo - Todos os direitos reservados</p>
         </section>
+
     </footer>
 </body>
 </html>
