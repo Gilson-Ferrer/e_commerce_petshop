@@ -12,7 +12,27 @@
 
 .botao-estilo {
     background-color: var(--cor-background-principal);
-    padding: 1em 1em;
+    padding: 1em;
     width: 250px;
     border-radius: 8px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .botao {
+        padding: 1em;
+    }  
+
+    .botao-estilo{
+        padding: 0.5em;
+        width: 125px;
+        border-radius: 4px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .secao-botao {
+        display: none;
+    }   
 }
