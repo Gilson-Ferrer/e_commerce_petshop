@@ -6,7 +6,7 @@
     flex-direction: column;
     background-color: var(--cinza-card);
     width: auto;
-    height: 480px;
+    height: auto;
     border: 2px solid black;
     border-radius: 8px;
     margin: 2rem 20rem;
@@ -18,7 +18,7 @@ padding-left: 95%;
 }
 
 .painel-2 {
-    padding-left: 3.5rem;
+    padding-left: 8rem;
 }
 
 .painel .img-descricao {
@@ -27,14 +27,12 @@ padding-left: 95%;
     justify-content: space-evenly;
 }
 
-
 .img-descricao h2 {
-    width: 35%;
+    width: 40%;
 }
 #produto-venda {
-    width: 25%;
+    width: 20%;
     height: auto;
-    padding: 10px;
     background-color: white;
 }
 
@@ -59,6 +57,14 @@ padding-left: 95%;
     justify-content: space-between;
     width: 80%;
     padding-top: 4%;
+}
+
+.quantidade-produtos {
+    width: 8rem;
+    height: 1.4rem;
+    background-color: white;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .campo-frete {

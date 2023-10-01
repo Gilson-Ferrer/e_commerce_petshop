@@ -12,35 +12,53 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/index/header.css">
     <link rel="stylesheet" href="./styles/index/footer.css">
+    <link rel="stylesheet" href="./styles/index/botoes.css">
     <link rel="stylesheet" href="./styles/index/card.css">
     <link rel="stylesheet" href="./styles/painel-carrinho.css">
+    <script src="js/menu-hamburguer.js" defer></script>
+    <script src="js/carrossel.js" defer></script>
 
 </head>
 
-<body background="img/img-decoration-back.png">
+<body>
     <header class="cabecalho">
         <section class="menu-principal">
-            <aside>
-                <img src="./img/icone-3-barras.svg" alt="Icone do aside" class="menu-hamburguer__icone">
+            <aside class="aside">
+                <div class="aside-botao">
+                    <button id="menu-botao" class="botao"><img src="./img/icone-3-barras.svg" alt="" class="botao-icone"></button>
+                    <div id="menu">
+                        <ul class="menu-botao">
+                          <li class="menu-botao__link">
+                            <a href="#" class="menu-botao__link-a">Opção 1</a>
+                        </li>
+                          <li class="menu-botao__link">
+                            <a href="#" class="menu-botao__link-a">Opção 2</a>
+                        </li>
+                          <li class="menu-botao__link">
+                            <a href="#" class="menu-botao__link-a">Opção 3</a>
+                        </li>
+                        </ul>
+                      </div>
+                </div>
             </aside>
             <h1><img src="./img/logo_pet-tudo-sem-fundo.png" alt="Logo da Loja Pet Tudo" class="logo__icone"></h1>
         </section>
         <nav class="menu-nav">
-            <div>
-                <a href="./index.html" class="menu-nav__link">Home</a>
+            <div class="nav-links">
+                <a href="./index.html" class="menu-nav__link" id="home">Home</a>
             </div>
-            <div>
+            <div class="nav-links">
                 <a href="./promocao.html" class="menu-nav__link">Promoção</a>
             </div>
-            <div>
+            <div class="nav-links">
                 <a href="./maisvendido.html" class="menu-nav__link">Mais vendidos</a>
             </div>
-            <div>
+            <div class="nav-links">
                 <a href="./sobre_nos.html" class="menu-nav__link">Sobre nós</a>
             </div>
             <div class="sacola">
                 <a href="./carrinho.html"><img src="./img/sacola_fr.png" alt="Icone de Sacola" class="sacola-icone"></a>
-                <p>Sacola</p>
+                <p class="sacola-texto">Sacola</p>
             </div>
         </nav>
     </header>
@@ -55,20 +73,21 @@
             <div class="painel-2"> 
                 <div class="cores">
                     <!--Checkbox para cor do produto-->
-                    <h3>Cor</h3>
-                    <input type="radio" id="cor1_" name="cor-do-produto" value="vermelho">
-                    <label for="cor1_">Vermelho</label><br>
-                    <input type="radio" id="cor2_" name="cor-do-produto" value="azul">
-                    <label for="cor2_">Azul</label><br>
-                    <input type="radio" id="cor3_" name="cor-do-produto" value="verde">
-                    <label for="cor3_">Verde</label><br>
-                    <input type="radio" id="cor4_" name="cor-do-produto" value="amarelo">
-                    <label for="cor4_">Amarelo</label><br>
+                    <h3 class="texto-cor">Cor</h3>
+                    <input type="radio" id="cor1_" name="cor-do-produto" value="vermelho" class="caixa-vermelho">
+                    <label for="cor1_" class="texto-vermelho">Vermelho</label><br>
+                    <input type="radio" id="cor2_" name="cor-do-produto" value="azul" class="caixa-azul">
+                    <label for="cor2_" class="texto-azul">Azul</label><br>
+                    <input type="radio" id="cor3_" name="cor-do-produto" value="verde" class="caixa-verde">
+                    <label for="cor3_" class="texto-verde">Verde</label><br>
+                    <input type="radio" id="cor4_" name="cor-do-produto" value="amarelo" class="caixa-amarelo">
+                    <label for="cor4_" class="texto-amarelo">Amarelo</label><br>
                 </div>
                 <div class="quantidade">
-                    <h3>Quantidade</h3>
-                    <input type="number" name="qtd_produt">
-                    <input type="button" value="Adicionar" onclick="add_produto()">
+                    <h3 class="texto-quantidade">Quantidade</h3>
+                    <button>-</button>
+                    <h5 class="quantidade-produtos">0</h5>
+                    <button>+</button>
                 </div>
 
                     <!--Calcular frete-->
@@ -77,7 +96,6 @@
                     <input type="search" name="cep" placeholder="Digite o cep...">
                     <input type="button" value="Calcular" onclick="calc_frete()">
                 </div>
-
                     <!--Calcular sutotal e total-->
                 <div class="subtotal">
                     <h4>Subtotal</h4>
@@ -127,19 +145,19 @@
         <!--Seção de vantagens-->
         <section class="rodape-secoes">
             <div class="rodape-vantagens">
-                <img src="./img/fretegratis_fr.png" alt="Frete grátis">
+                <img src="./img/fretegratis_fr.png" alt="Frete grátis" class="icone-vantagens">
                 <p class="vantagens-frete">Frete grátis</p>
             </div>
             <div class="rodape-vantagens">
-                <img src="./img/paguefacil_fr.png" alt="Pague fácil">
+                <img src="./img/paguefacil_fr.png" alt="Pague fácil" class="icone-vantagens">
                 <p class="vantagens-pagamento">Pague fácil</p>
             </div>
             <div class="rodape-vantagens">
-                <img src="./img/menorpreco_fr.png" alt="Menor preço">
+                <img src="./img/menorpreco_fr.png" alt="Menor preço" class="icone-vantagens">
                 <p class="vantagens-preco">Menor preço</p>
             </div>
             <div class="rodape-vantagens">
-                <img src="./img/cashback_fr.png" alt="Cash back">
+                <img src="./img/cashback_fr.png" alt="Cash back" class="icone-vantagens">
                 <p class="vantagens-cashback">Cash back</p>
             </div>
         </section>
@@ -178,12 +196,13 @@
         </section>
 
         <div class="rodape-pagamento">
-            <img src="./img/pagamento_fr.png" alt="">
+            <img src="./img/pagamento_fr.png" alt="Opções de pagamento" class="rodape-pagamento_icone">
         </div>
         
         <section class="rodape-secoes">
             <p class="rodape-copy">&copy;PetTudo - Todos os direitos reservados</p>
         </section>
+
     </footer>
 </body>
 </html>
