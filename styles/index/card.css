@@ -53,7 +53,7 @@
 
 .card-informacoes {
     align-self: start;
-    font-size: 0.25rem;
+    font-size: 0.5rem;
     padding: 3em 6em;
 }
 
@@ -98,7 +98,7 @@
     }
     
     .card-informacoes {
-        font-size: 0.225rem;
+        font-size: 0.45rem;
         padding: 2.7em 5.4em;
     }
     
@@ -127,7 +127,7 @@
     }
     
     .card-informacoes {
-        font-size: 0.2rem;
+        font-size: 0.4rem;
         padding: 2.4em 4.8em;
     }
     
@@ -157,7 +157,7 @@
     }
     
     .card-informacoes {
-        font-size: 0.16rem;
+        font-size: 0.32rem;
         padding: 1.92em 3.84em;
     }
     
@@ -190,7 +190,7 @@
     }
     
     .card-informacoes {
-        font-size: 0.05rem;
+        font-size: 0.16rem;
     }
     
     .card-valor {
@@ -203,30 +203,6 @@
 
     #secao-carrossel {
         display: none;
-    }
-
-    .card {
-        width: 120px;
-        height: 192px;
-        border-radius: 3.6px;
-        margin: 1em 0.5em;
-    }
-    
-    .card-imagem {
-        width: 28,8%;
-        margin: 1.44em 1.44em;
-    }
-    
-    .card-titulo {
-        font-size: 0.72rem;
-    }
-    
-    .card-informacoes {
-        font-size: 0.05rem;
-    }
-    
-    .card-valor {
-        font-size: 0.6rem;
     }
 
 }
