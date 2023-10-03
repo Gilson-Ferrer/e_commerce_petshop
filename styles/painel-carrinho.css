@@ -2,33 +2,30 @@
 
 
 .painel {
-    display: flex;
-    flex-direction: column;
+    display: block;
     background-color: var(--cinza-card);
-    width: auto;
+    width: 600px;
     height: auto;
     border: 2px solid black;
     border-radius: 8px;
-    margin: 2rem 20rem;
-    padding: 1rem 5rem 5rem 5rem;
+    margin: 2rem 15rem;
+    padding: 1rem 5rem 5rem 12rem;
 }
 
 .icone-painel {
 padding-left: 95%;
 }
 
-.painel-2 {
-    padding-left: 8rem;
-}
 
 .painel .img-descricao {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    
 }
 
 .img-descricao h2 {
     width: 40%;
+    padding-left: 20%;
 }
 #produto-venda {
     width: 20%;

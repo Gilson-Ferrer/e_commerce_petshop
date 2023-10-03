@@ -1,11 +1,13 @@
+
 #texto-compra-realizada{
     font-size: 2rem;
     text-align: center;
+    padding-right: 80px;
 }
 
-#imagem-compra-ok{
-    align-self: center;
-    padding: 2rem 0 0 0;
+#imagem-compra-ok{ 
+
+    padding: 2rem 11rem;
     
 }
 
@@ -29,7 +31,7 @@
     padding: 0.2rem 0.5rem;
 }
 
-.texto-valor-total{
-    align-self: flex-end;
+.texto-valor-total h1{
+    text-align: end;
     font-size: 2rem;
 }
