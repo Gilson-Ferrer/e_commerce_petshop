@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrinho</title>
+    <title>PetTudo</title>
     <link rel="shortcut icon" type="imagex/png" href="./img/logo_pet-tudo-icone.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,15 +11,12 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/index/header.css">
-    <link rel="stylesheet" href="./styles/index/footer.css">
     <link rel="stylesheet" href="./styles/index/botoes.css">
     <link rel="stylesheet" href="./styles/index/card.css">
-    <link rel="stylesheet" href="./styles/painel-carrinho.css">
-    <script src="js/menu-hamburguer.js" defer></script>
-    <script src="js/carrossel.js" defer></script>
-
+    <link rel="stylesheet" href="./styles/index/footer.css">
+    <script src="./js/menu-hamburguer.js" defer></script>
+    <script src="./js/categorias.js" defer></script>
 </head>
-
 <body>
     <header class="cabecalho">
         <section class="menu-principal">
@@ -29,13 +26,13 @@
                     <div id="menu">
                         <ul class="menu-botao">
                           <li class="menu-botao__link">
-                            <a href="./cachorro.html" class="menu-botao__link-a">Cachorro</a>
+                            <a href="#" id="botao-cachorro" class="menu-botao__link-a">Cachorro</a>
                         </li>
                           <li class="menu-botao__link">
-                            <a href="./gato.html" class="menu-botao__link-a">Gato</a>
+                            <a href="#" id="botao-gato" class="menu-botao__link-a">Gato</a>
                         </li>
                           <li class="menu-botao__link">
-                            <a href="./outros.html" class="menu-botao__link-a">Outros animais</a>
+                            <a href="#" id="botao-outros" class="menu-botao__link-a">Outros animais</a>
                         </li>
                         </ul>
                       </div>
@@ -61,82 +58,12 @@
             </div>
         </nav>
     </header>
-    <main >
-        <section class="painel">
-            <img src="img/sacola_fr.png" alt="carrinho" width="10%" class="icone-painel">            
-            <div class="img-descricao">
-                <img src="./img/produto_fr.png" alt="Osso de brinquedo" id="produto-venda">
-                <h2>Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - </h2>
-            </div> 
-                            <!--Calcular a quantidade de itens-->
-            <div > 
-                <div class="cores">
-                    <!--Checkbox para cor do produto-->
-                    <h3 class="texto-cor">Cor</h3>
-                    <input type="radio" id="cor1_" name="cor-do-produto" value="vermelho" class="caixa-vermelho">
-                    <label for="cor1_" class="texto-vermelho">Vermelho</label><br>
-                    <input type="radio" id="cor2_" name="cor-do-produto" value="azul" class="caixa-azul">
-                    <label for="cor2_" class="texto-azul">Azul</label><br>
-                    <input type="radio" id="cor3_" name="cor-do-produto" value="verde" class="caixa-verde">
-                    <label for="cor3_" class="texto-verde">Verde</label><br>
-                    <input type="radio" id="cor4_" name="cor-do-produto" value="amarelo" class="caixa-amarelo">
-                    <label for="cor4_" class="texto-amarelo">Amarelo</label><br>
-                </div>
-                <div class="quantidade">
-                    <h3 class="texto-quantidade">Quantidade</h3>
-                    <button>-</button>
-                    <h5 class="quantidade-produtos">0</h5>
-                    <button>+</button>
-                </div>
 
-                    <!--Calcular frete-->
-                <div class="campo-frete">
-                    <h4><label for="cep">Calcular frete</label></h4>
-                    <input type="search" name="cep" placeholder="Digite o cep...">
-                    <input type="button" value="Calcular" onclick="calc_frete()">
-                </div>
-                    <!--Calcular sutotal e total-->
-                <div class="subtotal">
-                    <h4>Subtotal</h4>
-                    <p>R$</p><input type="text" id="subtotal_result">                               
-                </div>
-                <div class="total">
-                <h4>Total</h4>
-                <p>R$</p><input type="text" id="total_result"> 
-                </div>
-                <input type="button" value="Finalizar pedido" onclick="calc_frete()" id="fazer-pedido"> 
-            </div>
+    <main>
+        <section class="secao-card" id="card-secao">
         </section>
-        <section >
-            <h3>Produtos relacionados</h3>  
-            <div class="produtos-relacionados">              
-                <div class="card">
-                    <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
-                    <h2 class="card-titulo">Osso de brinquedo</h2>
-                    <p class="card-informacoes">Informações</p>
-                    <p class="card-valor">R$19,99</p>
-                </div>
-                <div class="card">
-                    <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
-                    <h2 class="card-titulo">Osso de brinquedo</h2>
-                    <p class="card-informacoes">Informações</p>
-                    <p class="card-valor">R$19,99</p>
-                </div>
-                <div class="card">
-                    <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
-                    <h2 class="card-titulo">Osso de brinquedo</h2>
-                    <p class="card-informacoes">Informações</p>
-                    <p class="card-valor">R$19,99</p>
-                </div>
-                <div class="card">
-                    <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
-                    <h2 class="card-titulo">Osso de brinquedo</h2>
-                    <p class="card-informacoes">Informações</p>
-                    <p class="card-valor">R$19,99</p>
-                </div>
-            </div>
-        </section>
-    </main> 
+    </main>
+
     <footer class="rodape">
         
         <h2 class="rodape-titulo">Porque a Pet Tudo?</h2>
