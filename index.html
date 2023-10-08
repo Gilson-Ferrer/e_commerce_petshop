@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./styles/index/botoes.css">
     <link rel="stylesheet" href="./styles/index/card.css">
     <link rel="stylesheet" href="./styles/index/footer.css">
+    <script src="./js/script.js" defer></script>
     <script src="js/menu-hamburguer.js" defer></script>
     <script src="js/carrossel.js" defer></script>
 </head>
@@ -28,13 +29,13 @@
                     <div id="menu">
                         <ul class="menu-botao">
                           <li class="menu-botao__link">
-                            <a href="#" class="menu-botao__link-a">Cachorro</a>
+                            <a href="./cachorro.html" class="menu-botao__link-a">Cachorro</a>
                         </li>
                           <li class="menu-botao__link">
-                            <a href="#" class="menu-botao__link-a">Gato</a>
+                            <a href="./gato.html" class="menu-botao__link-a">Gato</a>
                         </li>
                           <li class="menu-botao__link">
-                            <a href="#" class="menu-botao__link-a">Outro animais</a>
+                            <a href="./outros.html" class="menu-botao__link-a">Outros animais</a>
                         </li>
                         </ul>
                       </div>
@@ -85,13 +86,13 @@
 
         <section class="secao-botao">
             <div class="botao">
-                <button type="button" class="botao-estilo">Promoção</button>
+                <button type="button" class="botao-estilo" id="botao-promocao">Promoção</button>
             </div>
             <div class="botao">
-                <button type="button" class="botao-estilo">Mais vendidos</button>
+                <button type="button" class="botao-estilo" id="botao-mais_vendidos">Mais vendidos</button>
             </div>
             <div class="botao">
-                <button type="button" class="botao-estilo">Lançamentos</button>
+                <button type="button" class="botao-estilo" id="botao-lancamentos">Lançamentos</button>
             </div>
         </section>
         
@@ -99,7 +100,7 @@
 
         <section id="secao-carrossel" class="carrosel-cards">
             <div class="carrosel-flex">
-                <div class="carrossel-container">
+                <div class="carrossel-container" id="container-carrossel">
                     <div class="card">
                         <img src="./img/produto2_fr.png" alt="Potes para ração" class="card-imagem">
                         <h2 class="card-titulo">Potes para Ração</h2>
