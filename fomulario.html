@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./styles/index/botoes.css">
     <link rel="stylesheet" href="./styles/index/card.css">
     <link rel="stylesheet" href="./styles/carrinho/painel-carrinho.css">
+    <link rel="stylesheet" href="./styles/formulario/formulario.css">
     <script src="js/menu-hamburguer.js" defer></script>
     <script src="js/carrossel.js" defer></script>
 
@@ -64,20 +65,20 @@
     <main >
         <section class="painel">
             <form action="">
-                <h2>Formulário de cadastro</h2>
+                <h1>Formulário de cadastro</h1>
                 <label for="username">* Nome:</label>
                 <input type="text" id="username" name="username">
-                <p id="username-helper" class="helper-text">Mensagem de ajuda</p>
+                <p id="username-helper" class="helper-text"></p>
 
-                <label for="username">* Sobrenome:</label>
-                <input type="text" id="username" name="username">
-                <p id="username-helper" class="helper-text">Mensagem de ajuda</p>
+                <label for="usersurname">* Sobrenome:</label>
+                <input type="text" id="usersurname" name="usersurname">
+                <p id="usersurname-helper" class="helper-text"></p>
             
                 <label for="email">* E-mail:</label>
                 <input type="email" id="email" name="email">
-                <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
+                <p id="email-helper" class="helper-text"></p>
 
-                <h3 class="forma-pagamento">Escolha a forma de pagamento</h3>
+                <h2 class="forma-pagamento">Forma de pagamento</h2>
 
                 <input type="radio" id="pag1_" name="meio-pagamento" value="vermelho" class="pag-pix">
                 <label for="pag1_" class="texto-pix">PIX</label><br>
@@ -90,15 +91,15 @@
                 
                 <div class="endereco">
 
-                    <span>Endereço</span><br>
+                    <h2>Endereço</h2><br>
                     <label for="logradouro">* Logradouro</label>
-                    <input type="text" id="logradouro" name="logradouro">
+                    <input type="text" id="logradouro" name="logradouro"><br>
 
                     <label for="numero">* Número</label>
-                    <input type="text" id="numero" name="numero"><br>
+                    <input type="text" id="numero" name="numero">
 
                     <label for="complemento">Complemento</label>
-                    <input type="text" id="complemento" name="complemento">
+                    <input type="text" id="complemento" name="complemento"><br>
 
                     <label for="bairro">* Bairro</label>
                     <input type="text" id="bairro" name="bairro"><br>

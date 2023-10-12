@@ -1,0 +1,84 @@
+h1{
+    font-size: 1.5rem;
+    width: auto;
+    height: 4rem;
+    text-align: center;
+    padding: 20px 80px 0 0;   
+}
+
+
+h2{
+    font-size: 1.5rem;
+    width: auto;
+    height: 4rem;
+    text-align: center; 
+    padding: 20px 80px 0 0;  
+}
+
+
+#username {
+    width: 450px;
+
+}
+
+#username-helper {
+    margin-bottom: 20px;
+}
+
+#usersurname {
+    width: 415px;
+}
+
+#usersurname-helper {
+    margin-bottom: 20px;
+}
+
+#email {
+    width: 445px;
+}
+
+#email-helper {
+    margin-bottom: 30px;
+}
+
+.pag-pix, .pag-boleto, .pag-cartao {
+    margin-bottom: 10px;
+} 
+
+#logradouro{
+    margin-bottom: 20px;
+    width: 420px;
+}
+
+#numero {
+    width: 80px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+#complemento {
+    width: 220px;
+}
+
+#bairro {
+    width: 450px;
+    margin-bottom: 20px;
+
+}
+
+#cidade {
+    width: 280px;
+    margin-right: 40px;
+}
+
+#uf {
+    width: 85px;
+    margin-bottom: 30px;
+}
+
+#comprar {
+    width: 515px;
+    height: 2rem;
+    color: white;
+    background-color: #4B9926;
+}

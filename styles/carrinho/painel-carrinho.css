@@ -49,6 +49,11 @@ padding-left: 95%;
     padding-top: 4%;
 }
 
+#rem-produto, #add-produto {
+    width: 50px;
+}
+
+
 .cores {
     display: flex;
     flex-direction: row;
@@ -58,11 +63,15 @@ padding-left: 95%;
 }
 
 .quantidade-produtos {
-    width: 8rem;
+    width: 220px;
     height: 1.4rem;
     background-color: white;
     text-align: center;
     font-size: 1.2rem;
+}
+
+#cep {
+    width: 280px;
 }
 
 .campo-frete {
