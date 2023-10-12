@@ -63,78 +63,57 @@
     </header>
     <main >
         <section class="painel">
-            <img src="img/sacola_fr.png" alt="carrinho" width="10%" class="icone-painel">            
-            <div class="img-descricao">
-                <img src="./img/produto_fr.png" alt="Osso de brinquedo" id="produto-venda">
-                <h2>Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - Descrição do produto - </h2>
-            </div> 
-                            <!--Calcular a quantidade de itens-->
-            <div > 
-                <div class="cores">
-                    <!--Checkbox para cor do produto-->
-                    <h3 class="texto-cor">Cor</h3>
-                    <input type="radio" id="cor1_" name="cor-do-produto" value="vermelho" class="caixa-vermelho">
-                    <label for="cor1_" class="texto-vermelho">Vermelho</label><br>
-                    <input type="radio" id="cor2_" name="cor-do-produto" value="azul" class="caixa-azul">
-                    <label for="cor2_" class="texto-azul">Azul</label><br>
-                    <input type="radio" id="cor3_" name="cor-do-produto" value="verde" class="caixa-verde">
-                    <label for="cor3_" class="texto-verde">Verde</label><br>
-                    <input type="radio" id="cor4_" name="cor-do-produto" value="amarelo" class="caixa-amarelo">
-                    <label for="cor4_" class="texto-amarelo">Amarelo</label><br>
-                </div>
-                <div class="quantidade">
-                    <h3 class="texto-quantidade">Quantidade</h3>
-                    <button>-</button>
-                    <h5 class="quantidade-produtos">0</h5>
-                    <button>+</button>
+            <form action="">
+                <h2>Formulário de cadastro</h2>
+                <label for="username">* Nome:</label>
+                <input type="text" id="username" name="username">
+                <p id="username-helper" class="helper-text">Mensagem de ajuda</p>
+
+                <label for="username">* Sobrenome:</label>
+                <input type="text" id="username" name="username">
+                <p id="username-helper" class="helper-text">Mensagem de ajuda</p>
+            
+                <label for="email">* E-mail:</label>
+                <input type="email" id="email" name="email">
+                <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
+
+                <h3 class="forma-pagamento">Escolha a forma de pagamento</h3>
+
+                <input type="radio" id="pag1_" name="meio-pagamento" value="vermelho" class="pag-pix">
+                <label for="pag1_" class="texto-pix">PIX</label><br>
+
+                <input type="radio" id="pag2_" name="meio-pagamento" value="azul" class="pag-boleto">
+                <label for="pag2_" class="texto-boleto">Boleto</label><br>
+
+                <input type="radio" id="pag3_" name="meio-pagamento" value="verde" class="pag-cartao">
+                <label for="pag3_" class="texto-cartao">Cartão de Crédito</label><br>
+                
+                <div class="endereco">
+
+                    <span>Endereço</span><br>
+                    <label for="logradouro">* Logradouro</label>
+                    <input type="text" id="logradouro" name="logradouro">
+
+                    <label for="numero">* Número</label>
+                    <input type="text" id="numero" name="numero"><br>
+
+                    <label for="complemento">Complemento</label>
+                    <input type="text" id="complemento" name="complemento">
+
+                    <label for="bairro">* Bairro</label>
+                    <input type="text" id="bairro" name="bairro"><br>
+
+                    <label for="cidade">* Cidade</label>
+                    <input type="text" id="cidade" name="cidade">
+
+                    <label for="uf">* UF</label>
+                    <input type="text" id="uf" name="uf"><br>
+
+                    <a href="./compra_realizada.html"><input type="button" value="Comprar" id="comprar"></a>
                 </div>
 
-                    <!--Calcular frete-->
-                <div class="campo-frete">
-                    <h4><label for="cep">Calcular frete</label></h4>
-                    <input type="search" name="cep" placeholder="Digite o cep...">
-                    <input type="button" value="Calcular" onclick="calc_frete()">
-                </div>
-                    <!--Calcular sutotal e total-->
-                <div class="subtotal">
-                    <h4>Subtotal</h4>
-                    <p>R$</p><input type="text" id="subtotal_result">                               
-                </div>
-                <div class="total">
-                <h4>Total</h4>
-                <p>R$</p><input type="text" id="total_result"> 
-                </div>
-                <a href="./fomulario.html"><input type="button" value="Finalizar pedido" id="fazer-pedido"> </a>
-            </div>
-        </section>
-        <section >
-            <h3>Produtos relacionados</h3>  
-            <div class="produtos-relacionados">              
-                <div class="card">
-                    <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
-                    <h2 class="card-titulo">Osso de brinquedo</h2>
-                    <p class="card-informacoes">Informações</p>
-                    <p class="card-valor">R$19,99</p>
-                </div>
-                <div class="card">
-                    <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
-                    <h2 class="card-titulo">Osso de brinquedo</h2>
-                    <p class="card-informacoes">Informações</p>
-                    <p class="card-valor">R$19,99</p>
-                </div>
-                <div class="card">
-                    <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
-                    <h2 class="card-titulo">Osso de brinquedo</h2>
-                    <p class="card-informacoes">Informações</p>
-                    <p class="card-valor">R$19,99</p>
-                </div>
-                <div class="card">
-                    <img src="./img/produto_fr.png" alt="Osso de brinquedo" class="card-imagem">
-                    <h2 class="card-titulo">Osso de brinquedo</h2>
-                    <p class="card-informacoes">Informações</p>
-                    <p class="card-valor">R$19,99</p>
-                </div>
-            </div>
+            </form>
+ 
         </section>
     </main> 
     <footer class="rodape">

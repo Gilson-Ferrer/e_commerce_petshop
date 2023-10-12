@@ -3,12 +3,13 @@
 
 .painel {
     display: block;
+    align-content: center;
     background-color: var(--cinza-card);
     width: 600px;
     height: auto;
     border: 2px solid black;
     border-radius: 8px;
-    margin: 2rem 15rem;
+    margin: 2rem 33rem;
     padding: 1rem 5rem 5rem 12rem;
 }
 
