@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="./styles/carrinho/painel-carrinho.css">
     <script src="js/menu-hamburguer.js" defer></script>
     <script src="js/carrossel.js" defer></script>
+    <script src="./js/carrinho/carrinho.js" defer></script>
+
 
 </head>
 
@@ -70,6 +72,7 @@
             </div> 
                             <!--Calcular a quantidade de itens-->
             <div > 
+                <h2 id="valor-unidade"></h2>
                 <div class="cores">
                     <!--Checkbox para cor do produto-->
                     <h3 class="texto-cor">Cor</h3>
@@ -85,24 +88,26 @@
                 <div class="quantidade">
                     <h3 class="texto-quantidade">Quantidade</h3>
                     <button id="rem-produto">-</button>
-                    <h5 class="quantidade-produtos">0</h5>
+                    <div id="quantidade-produtos"></div>
                     <button id="add-produto">+</button>
                 </div>
 
                     <!--Calcular frete-->
                 <div class="campo-frete">
                     <h4><label for="cep">Calcular frete</label></h4>
-                    <input type="search" id="cep" placeholder="Digite o cep...">
-                    <input type="button" value="Calcular" >
-                </div>
+                    <input type="text" id="cep" placeholder="Digite o cep...">
+                    <input type="txt" id="local-frete">
+                    <div id="valor-frete">R$  0.00</div>
+                </div><br>
+
                     <!--Calcular sutotal e total-->
                 <div class="subtotal">
                     <h4>Subtotal</h4>
-                    <p>R$</p><input type="text" id="subtotal_result">                               
+                    <div id="subtotal-result">R$  0.00</div>                              
                 </div>
                 <div class="total">
-                <h4>Total</h4>
-                <p>R$</p><input type="text" id="total_result"> 
+                    <h4>Total</h4>
+                    <div id="total-result">R$  0.00</div> 
                 </div>
                 <a href="./fomulario.html"><input type="button" value="Finalizar pedido" id="fazer-pedido"> </a>
             </div>

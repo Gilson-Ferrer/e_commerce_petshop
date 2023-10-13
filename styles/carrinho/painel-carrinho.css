@@ -34,6 +34,12 @@ padding-left: 95%;
     background-color: white;
 }
 
+#valor-unidade {
+    width: 480px;
+    text-align: end;
+    font-size: 1.2rem;
+    padding: 20px 0;
+}
 .produtos-relacionados, h3 {
     display: flex;
     flex-wrap: wrap;
@@ -62,12 +68,14 @@ padding-left: 95%;
     padding-top: 4%;
 }
 
-.quantidade-produtos {
+#quantidade-produtos, #subtotal-result, #total-result{
     width: 220px;
-    height: 1.4rem;
+    height: 1.2rem;
     background-color: white;
     text-align: center;
     font-size: 1.2rem;
+    border: 1px solid black;
+    border-radius: 3px;
 }
 
 #cep {
@@ -76,12 +84,19 @@ padding-left: 95%;
 
 .campo-frete {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     width: 80%;
     padding-top: 4%;
     padding-bottom: 4%;
     border-bottom: 2px solid black;
+}
+
+.campo-frete #cep {
+    width: 160px;
+}
+
+.campo-frete #local-frete {
+    width: 30px;
 }
 .subtotal {
     display: flex;
