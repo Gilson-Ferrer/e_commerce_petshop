@@ -2,7 +2,7 @@
 // MOSTRAR DESCRIÇÃO PRODUTO //
 
 let mostrarDescricao = document.getElementById('mostrar-descricao');
-mostrarDescricao.textContent = localStorage.getItem('valueDescricao');
+mostrarDescricao.innerHTML = localStorage.getItem('valueDescricao');
 
 
 // MOSTRAR CEP DE ENTREGA //

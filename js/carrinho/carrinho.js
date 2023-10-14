@@ -8,6 +8,7 @@ let descricaoProduto = document.getElementById("descricao-produto")
 
 
 let subtotalInfo = {
+  decricao: `<p>Osso de brinquedo Marca: OdontoPet Tamanho: 3cm x 15cm Material: Borracha peso: 50g Indicação: Caninos </p> <br>cod: 00001 `,
   quantidade: 0,
   valorUnidadeProduto: 19.99,
   valorComFrete: 0,
@@ -21,7 +22,7 @@ valorUnidade.innerText = "R$  " + subtotalInfo.valorUnidadeProduto
 
 quantidadeProdutos.innerText = subtotalInfo.quantidade;
 valorSubtotal.innerText = "R$  " +subtotalInfo.valor.toFixed(2);
-
+descricaoProduto.innerHTML = subtotalInfo.decricao
 
 // // // -------EVENTOS --------------//
 
@@ -57,8 +58,7 @@ btnSubProduto01.addEventListener("click",() => {
 let btn = document.getElementById('fazer-pedido');
 
 btn.addEventListener("click", function(){
-  let getDescricaoProduto = document.getElementById('descricao-produto').value;
-  localStorage.setItem('valueDescricao', getDescricaoProduto);
+  localStorage.setItem('valueDescricao', subtotalInfo.decricao);
 })
 
 

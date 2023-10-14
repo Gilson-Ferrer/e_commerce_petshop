@@ -9,7 +9,7 @@
     height: auto;
     border: 2px solid black;
     border-radius: 8px;
-    margin: 2rem 33rem;
+    margin: 2rem auto;
     padding: 1rem 5rem 5rem 12rem;
 }
 
@@ -81,7 +81,7 @@ padding-left: 95%;
 }
 
 #cep {
-    width: 280px;
+    width: 260px;
 }
 
 .campo-frete {
@@ -91,7 +91,7 @@ padding-left: 95%;
     padding-top: 4%;
     padding-bottom: 2px;
 
-}
+}Home
 
 .campo-frete #cep {
     width: 160px;
