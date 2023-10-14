@@ -78,7 +78,7 @@
                 <div class="cores">
                     <!--Checkbox para cor do produto-->
                     <h3 class="texto-cor">Cor</h3>
-                    <input type="radio" id="cor1_" name="cor-do-produto" value="vermelho" class="caixa-vermelho">
+                    <input type="radio" id="cor1_" name="cor-do-produto" value="vermelho" class="caixa-vermelho" checked>
                     <label for="cor1_" class="texto-vermelho">Vermelho</label><br>
                     <input type="radio" id="cor2_" name="cor-do-produto" value="azul" class="caixa-azul">
                     <label for="cor2_" class="texto-azul">Azul</label><br>
@@ -87,20 +87,21 @@
                     <input type="radio" id="cor4_" name="cor-do-produto" value="amarelo" class="caixa-amarelo">
                     <label for="cor4_" class="texto-amarelo">Amarelo</label><br>
                 </div>
+
+                    <!--Calcular frete-->
+                <div class="campo-frete">
+                    <h4><label for="cep">*  Calcular frete</label></h4>
+                    <input type="text" id="cep" placeholder="Digite o cep...">
+                    <input type="txt" id="local-frete">
+                    <div id="valor-frete">R$  0.00</div>
+                </div><br>
+                
                 <div class="quantidade">
                     <h3 class="texto-quantidade">Quantidade</h3>
                     <button id="rem-produto">-</button>
                     <div id="quantidade-produtos"></div>
                     <button id="add-produto">+</button>
                 </div>
-
-                    <!--Calcular frete-->
-                <div class="campo-frete">
-                    <h4><label for="cep">Calcular frete</label></h4>
-                    <input type="text" id="cep" placeholder="Digite o cep...">
-                    <input type="txt" id="local-frete">
-                    <div id="valor-frete">R$  0.00</div>
-                </div><br>
 
                     <!--Calcular sutotal e total-->
                 <div class="subtotal">

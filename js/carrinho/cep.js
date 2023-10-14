@@ -11,6 +11,7 @@ function buscarCep (){
   
         request.onload = function(){
             if (request.status === 200){
+                corretos.cep = true;
                 let end = JSON.parse(request.response);
                 document.getElementById("local-frete").value = end.state;
                 let localDoFrete = document.getElementById("local-frete").value;
@@ -78,3 +79,17 @@ function buscarCep (){
     let txtCep = document.getElementById("cep");
     txtCep.addEventListener("blur", buscarCep);
   }
+
+  // EVITA O ENVIO SEM O PREENCHIMENTO DO CEP// 
+
+let btnSubmit = document.querySelector('#fazer-pedido')
+let corretos = {
+    cep: false,
+}
+
+btnSubmit.addEventListener("click", (e) =>{  
+    if(corretos.cep == false){
+        e.preventDefault()
+        alert("Os campos obrigatórios * deverão ser preenchidos")
+    }
+})

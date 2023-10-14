@@ -30,7 +30,9 @@ btnAddProduto01.addEventListener("click",() => {
   quantidadeProdutos.innerText = subtotalInfo.quantidade ;
   let valor_2dec = subtotalInfo.valorUnidadeProduto * subtotalInfo.quantidade;
   valorSubtotal.innerText = "R$  " + valor_2dec.toFixed(2);
-  valorTotal.innerText ="R$  " + (valor_2dec + subtotalInfo.valorComFrete).toFixed(2)
+  valorTotal.innerText ="R$  " + (valor_2dec + subtotalInfo.valorComFrete).toFixed(2) 
+  localStorage.setItem('valuePreco', (valor_2dec + subtotalInfo.valorComFrete).toFixed(2)) 
+
 })
 
 btnSubProduto01.addEventListener("click",() => {
@@ -39,6 +41,8 @@ btnSubProduto01.addEventListener("click",() => {
       quantidadeProdutos.innerText = subtotalInfo.quantidade ;
       let valor_2dec = subtotalInfo.valorUnidadeProduto * subtotalInfo.quantidade;
       valorSubtotal.innerText = "R$  " + valor_2dec.toFixed(2);
+      localStorage.setItem('valuePreco', (valor_2dec + subtotalInfo.valorComFrete).toFixed(2)) 
+
       if (subtotalInfo.quantidade == 0){
         valorTotal.innerText ="R$  " + 0.00.toFixed(2);
       }else{

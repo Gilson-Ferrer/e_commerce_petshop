@@ -228,7 +228,7 @@ btnSubmit.addEventListener("click", (e) =>{
   
     ){
         e.preventDefault()
-        alert("Os campos obrigatórios devem ser preenchidos")
+        alert("Os campos obrigatórios * deverão ser preenchidos")
     }else{
         alert("Formulário enviado com sucesso!")
     }
