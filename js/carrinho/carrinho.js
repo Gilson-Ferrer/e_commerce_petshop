@@ -6,7 +6,6 @@ let btnSubProduto01 = document.getElementById("rem-produto");
 let valorTotal = document.getElementById("total-result")
 
 
-
 let subtotalInfo = {
   quantidade: 0,
   valorUnidadeProduto: 19.99,
