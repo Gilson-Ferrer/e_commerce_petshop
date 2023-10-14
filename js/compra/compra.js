@@ -1,5 +1,8 @@
 
+// MOSTRAR DESCRIÇÃO PRODUTO //
 
+let mostrarDescricao = document.getElementById('mostrar-descricao');
+mostrarDescricao.textContent = localStorage.getItem('valueDescricao');
 
 
 // MOSTRAR CEP DE ENTREGA //
@@ -12,3 +15,4 @@ mostrarCep.textContent = localStorage.getItem('valueText');
 
 let mostrarPrecoFinal = document.getElementById('valor-Total-Cr');
 mostrarPrecoFinal.textContent = localStorage.getItem('valuePreco');
+

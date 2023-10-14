@@ -4,6 +4,7 @@ let valorSubtotal = document.getElementById("subtotal-result");
 let btnAddProduto01 = document.getElementById("add-produto");
 let btnSubProduto01 = document.getElementById("rem-produto");
 let valorTotal = document.getElementById("total-result")
+let descricaoProduto = document.getElementById("descricao-produto")
 
 
 let subtotalInfo = {
@@ -53,6 +54,11 @@ btnSubProduto01.addEventListener("click",() => {
 })
 
 
+let btn = document.getElementById('fazer-pedido');
 
+btn.addEventListener("click", function(){
+  let getDescricaoProduto = document.getElementById('descricao-produto').value;
+  localStorage.setItem('valueDescricao', getDescricaoProduto);
+})
 
 
