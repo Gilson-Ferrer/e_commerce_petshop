@@ -5,10 +5,11 @@ let btnAddProduto01 = document.getElementById("add-produto");
 let btnSubProduto01 = document.getElementById("rem-produto");
 let valorTotal = document.getElementById("total-result")
 let descricaoProduto = document.getElementById("descricao-produto")
+// let corProduto = document.querySelector('input[name="cor-do-produto"]: checked').value;
 
 
 let subtotalInfo = {
-  decricao: `<p>Osso de brinquedo Marca: OdontoPet Tamanho: 3cm x 15cm Material: Borracha peso: 50g Indicação: Caninos </p> <br>cod: 00001 `,
+  decricao: `<p>Osso de brinquedo Marca: OdontoPet Tamanho: 3cm x 15cm Material: Borracha peso: 50g Indicação: Caninos </p> <br>cod: 00002`,
   quantidade: 0,
   valorUnidadeProduto: 19.99,
   valorComFrete: 0,
@@ -59,6 +60,9 @@ let btn = document.getElementById('fazer-pedido');
 
 btn.addEventListener("click", function(){
   localStorage.setItem('valueDescricao', subtotalInfo.decricao);
+
 })
+
+
 
 

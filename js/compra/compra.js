@@ -4,7 +4,6 @@
 let mostrarDescricao = document.getElementById('mostrar-descricao');
 mostrarDescricao.innerHTML = localStorage.getItem('valueDescricao');
 
-
 // MOSTRAR CEP DE ENTREGA //
 
 let mostrarCep = document.getElementById('cep-entrega');
