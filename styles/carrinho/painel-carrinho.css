@@ -98,6 +98,12 @@ padding-left: 95%;
 .campo-frete #local-frete {
     width: 30px;
 }
+
+#valor-frete {
+    color: #4B9926;
+    font-size: 1.2rem;
+}
+
 .subtotal {
     display: flex;
     flex-direction: row;

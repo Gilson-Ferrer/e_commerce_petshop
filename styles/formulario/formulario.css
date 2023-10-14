@@ -21,16 +21,16 @@ h2{
 
 }
 
-#username-helper {
-    margin-bottom: 20px;
-}
 
 #usersurname {
     width: 415px;
 }
 
-#usersurname-helper {
+#usersurname-helper, #username-helper, #email-helper, #searchcep-helper, #logradouro-helper, #numero-helper, #bairro-helper, #cidade-helper, #uf-helper {
     margin-bottom: 20px;
+    font-size: 0.8rem;
+    color: #992020;
+    font-style: italic;
 }
 
 #email {
@@ -46,13 +46,13 @@ h2{
 } 
 
 #logradouro{
-    margin-bottom: 20px;
     width: 420px;
+    margin-top: 5px;
 }
 
 #numero {
     width: 80px;
-    margin-bottom: 20px;
+    margin-top: 5px;
     margin-right: 40px;
 }
 
@@ -62,23 +62,41 @@ h2{
 
 #bairro {
     width: 450px;
-    margin-bottom: 20px;
+    margin-top: 5px;
 
 }
 
 #cidade {
-    width: 280px;
-    margin-right: 40px;
+    width: 450px;
+    margin-top: 5px;
 }
 
 #uf {
-    width: 85px;
-    margin-bottom: 30px;
+    width: 450px;
+    margin-top: 5px;
+
 }
 
 #comprar {
     width: 515px;
+    margin-top: 30px;
     height: 2rem;
     color: white;
     background-color: #4B9926;
 }
+
+
+/* VALIDAÇÕES */
+
+input.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+}
+  
+input.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+    color: #206620;
+}
+  
