@@ -5,7 +5,7 @@ Ração umida para Gatos
 
 Um alimento completo, a Ração Úmida Golden Gourmet Gatos Castrados Carne é enriquecida com vitaminas e minerais que atentem as necessidades dos gatos castrados a partir dos 6 meses de idade, por contar com L-Carnitina possibilita um equilíbrio ideal de nutrientes.
 
-Contando com um molho suculento, o Sachê Golden Gatos Castrados auxilia na manutenção do sistema urinário saudável, pois contribui para ingestão diária de água. Conta em sua composição com ingredientes 100% naturais possuindo um sabor saudável pois não contém corantes e aromatizantes artificiais
+Contando com um molho suculento, o Sachê Golden Gatos Castrados auxilia na manutenção do sistema urinário saudável, pois contribui para ingestão diária de água. Conta em sua composição com ingredientes 100% naturais possuindo um sabor saudável pois não contém corantes e aromatizantes artificiais.
 
 
 preço = 3.99
@@ -314,6 +314,7 @@ produto-capa-chuva
 
 
 Capa de Chuva para Cachorro Rosa Bichinho Chic
+
 A Capa de Chuva para Cachorro Rosa Bichinho Chic conta com um capuz, que além de proteger ainda deixará seu pet estiloso, ideal para os passeios em dias chuvosos.
 
 A Capa para Cães com Capuz foi produzida em plástico PVC transparente com uma borda em acabamento colorido dando um lindo contraste além de possuir também passagem para a guia e fitas de ajuste na cintura e pescoço.

@@ -70,7 +70,7 @@ const categoriaCachorro = [ {
 },
 ];
 
-//Catagoria Gato
+//Categoria Gato
 
 
 const categoriaGato = [ {
