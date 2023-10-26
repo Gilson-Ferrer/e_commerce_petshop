@@ -31,7 +31,7 @@ https://www.loopnerd.com.br/codigos-html-prontos/ -> site para consulta de html
 
 			Escolha e definição em comum acordo para nova divisão de tarefas e detalhamento de menu com responsividade (remover carrossel quando responsivo e estruturar cards em 1 ou 2 por vez, sobreposição do menu hamburguer no background)
 
-
+	4. reunião relizada em 25/10/2023 -> definições de banco de produtos, banco de dados e detalhes de carrossel, links de páginas, renderização, sistema de captção e armazenamento de informações. ->
 
 
 
@@ -59,6 +59,7 @@ https://www.loopnerd.com.br/codigos-html-prontos/ -> site para consulta de html
 	Gilson 
 
 		* carrinho 
+		* formulário
 		* imagens (tratamento)
 		* compra realizada
 
@@ -70,11 +71,15 @@ https://www.loopnerd.com.br/codigos-html-prontos/ -> site para consulta de html
 		* mais vendidos
 		* promoção
 		* sobre nós
+		* Banco de dados (estruturação sem link com site)
 	
 	Vinícius 
 
 		* index
-		* Estruturação do site
+		* Estruturação geral do site
+		* animação em JS
+		* menu hamburguer
+		* header e footer 
 	
 
 
