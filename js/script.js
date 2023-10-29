@@ -420,6 +420,9 @@ function renderizarTodos() {
 
 renderizarTodos();
 
+
+//Carrossel Promocao
+
 function renderizarPromocao() {
 
     const carrosselPromocao = todosProdutos.filter(produto => produto.categoriaAba.includes("promocao"));
@@ -496,3 +499,64 @@ function renderizarLancamentos() {
 }
 
 botaoLancamentos.addEventListener("click", renderizarLancamentos);
+
+/*---------------------------------------------------------------RENDERIZAÇÃO DA PAGINA E RENDERIZAÇÃO DA BARRA DE PESQUISA-------------------------------------- */
+
+
+//Gerador dinâmico de produtos (e números)
+
+function gerarNumerosAleatorios(min, max, contador) {
+    if (contador > max - min + 1) {
+      throw new Error("Não é possível obter números únicos suficientes no intervalo especificado.");
+    }
+  
+    const numerosUnicos = new Set();
+  
+    while (numerosUnicos.size < contador) {
+      const numeroAletorio = Math.floor(Math.random() * (max - min + 1)) + min;
+      numerosUnicos.add(numeroAletorio);
+    }
+  
+    return Array.from(numerosUnicos);
+  }
+  
+  const min = 0;
+  const max = 29;
+  const contador = 8;
+  
+  const arrayDeNumeros = gerarNumerosAleatorios(min, max, contador);
+  
+//**********Renderização da Index pós carrossel
+
+//Captura da seção
+
+const secaoCard = document.getElementById("secao-card");
+
+//Função de renderização
+
+function renderizarPosCarrossel() {
+
+    const categoriaPosCarrossel = todosProdutos.filter(produto => arrayDeNumeros.includes(parseInt(produto.cod)));
+
+    console.log(categoriaPosCarrossel);
+
+    secaoCard.innerHTML = "";
+
+    for (let i = 0; i < categoriaPosCarrossel.length; i++) {
+
+
+        const novaDiv = document.createElement("div");
+
+        novaDiv.classList.add("card");
+
+        novaDiv.innerHTML = `
+            <img ${categoriaPosCarrossel[i].imagemAtributos} class="card-imagem">
+            <h2 class="card-titulo">${categoriaPosCarrossel[i].h2Titulo}</h2>
+            <p class="card-valor">${categoriaPosCarrossel[i].pValor}</p>
+        `;
+
+        secaoCard.appendChild(novaDiv);
+    }
+}
+
+renderizarPosCarrossel();
