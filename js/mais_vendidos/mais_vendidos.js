@@ -76,7 +76,7 @@ const prodMaisVendidos = [
 },
 {
     imagemAtributos: "./object_imgs/produto-comedouro.svg",
-    h2Titulo: 'Comedouro Lateral com Poleiro',
+    h2Titulo: 'Comedouro Lateral aves',
     pInformacoes: 'Comedouro para alimentar seu pet com mais estilo',
     pValor: 'R$12,30',
     cod: '013',
