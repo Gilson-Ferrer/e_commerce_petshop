@@ -128,3 +128,10 @@ padding-left: 95%;
     color: white;
     background-color: #4B9926;
 }
+
+.titulo2{
+    width: auto;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 40px;
+}

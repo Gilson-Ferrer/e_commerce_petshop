@@ -64,17 +64,6 @@ const prodMaisVendidos = [
     categoriaAba: ['lancamentos','mais-vendidos']
 },  
 {
-    imagemAtributos: "./object_imgs/produto-caminha.svg" ,
-    h2Titulo: 'Cama Retangular Carmel',
-    pInformacoes: 'Confortável e estilosa',
-    pValor: 'R$89,90',
-    cod: '012',
-    descricao: `A Cama Retangular Carmel Fábrica Pet Rosa é perfeita para o seu pet! Conforto e estilo, tudo que cães e gatos precisam na hora de descansar.
-
-    Essa cama retangular foi elaborada pensando em trazer sempre o máximo de conforto. Feita com um tecido macio e com enchimento em fibra siliconada que não retém a umidade.`,
-    categoriaAba: ['mais-vendidos','promocao']
-},
-{
     imagemAtributos: "./object_imgs/produto-comedouro.svg",
     h2Titulo: 'Comedouro Lateral aves',
     pInformacoes: 'Comedouro para alimentar seu pet com mais estilo',

@@ -60,8 +60,9 @@
 
 .card-informacoes {
     align-self: start;
-    font-size: 0.25rem;
-    padding: 3em 6em;
+    font-size: 0.75rem;
+    margin-left: 35px;
+    padding: 1em;
 }
 
 .card-valor {
@@ -89,6 +90,12 @@
 
 }
 
+.titulo2{
+    width: auto;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2rem;
+}
 
 @media screen and (max-width: 1800px) {
     .card {
