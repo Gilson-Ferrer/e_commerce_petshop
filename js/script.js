@@ -2,7 +2,7 @@
 
 const todosProdutos = [
     {
-        imagemAtributos: 'src="./img/produto-racaoumida-gato.svg" alt="Ração umida para Gatos"',
+        imagemAtributos: 'src="./object_imgs/produto-racaoumida-gato.svg" alt="Ração umida para Gatos"',
         h2Titulo: 'Ração umida para Gatos',
         pInformacoes: 'Ideal para gatos com mais de 6 meses',
         pValor: 'R$3,99',
@@ -14,7 +14,7 @@ const todosProdutos = [
         categoriaAba: 'mais-vendidos'
         },
     {
-        imagemAtributos: 'src="./img/produto-ninho-corda.svg" alt="Ninho de Corda Kakatoo"',
+        imagemAtributos: 'src="./object_imgs/produto-ninho-corda.svg" alt="Ninho de Corda Kakatoo"',
         h2Titulo: 'Ninho de Corda Kakatoo',
         pInformacoes: 'Lar ideal para nidificação das aves',
         pValor: 'R$17,90',
@@ -31,7 +31,7 @@ const todosProdutos = [
         categoriaAba: 'promocao'
         },
     {
-        imagemAtributos: 'src="./img/produto-racaoumida-cao.svg" alt="Ração umida para Cães"',
+        imagemAtributos: 'src="./object_imgs/produto-racaoumida-cao.svg" alt="Ração umida para Cães"',
         h2Titulo: 'Ração umida para Cães',
         pInformacoes: 'Ideal para cães pequeno ou médio porte',
         pValor: 'R$3,99',
@@ -43,7 +43,7 @@ const todosProdutos = [
         categoriaAba: 'mais-vendidos'
         },
     {
-        imagemAtributos: 'src="./img/produto-antipulga.svg" alt="Antipulgas Simparic 10kg a 20kg de 40mg"',
+        imagemAtributos: 'src="./object_imgs/produto-antipulga.svg" alt="Antipulgas Simparic 10kg a 20kg de 40mg"',
         h2Titulo: 'Antipulgas Simparic 10kg a 20kg de 40mg',
         pInformacoes: 'Ideal para cachorros de 10kg a 20kg',
         pValor: 'R$107,91',
@@ -55,7 +55,7 @@ const todosProdutos = [
         categoriaAba: 'lancamentos'
         },
     {
-        imagemAtributos: 'src="./img/produto-dipirona.svg" alt="Dipirona Gotas para Cães e Gatos"',
+        imagemAtributos: 'src="./object_imgs/produto-dipirona.svg" alt="Dipirona Gotas para Cães e Gatos"',
         h2Titulo: 'Dipirona Gotas para Cães e Gatos',
         pInformacoes: 'Medicamento indicado para tratar casos de dor e febre',
         pValor: 'R$28,90',
@@ -69,7 +69,7 @@ const todosProdutos = [
         categoriaAba: ['promocao', 'mais-vendidos']
         },
     {
-        imagemAtributos: 'src="./img/produto-racao.svg" alt="Ração Golden Special para Cães Adultos Frango e Carne"',
+        imagemAtributos: 'src="./object_imgs/produto-racao.svg" alt="Ração Golden Special para Cães Adultos Frango e Carne"',
         h2Titulo: 'Ração Golden Special para Cães Adultos Frango e Carne',
         pInformacoes: 'Ideal para cachorros com mais de 6 meses',
         pValor: 'R$129,90',
@@ -81,7 +81,7 @@ const todosProdutos = [
         categoriaAba: ['promocao','mais-vendidos','lancamentos']
         },
     {
-        imagemAtributos: 'src="./img/produto-aquario.svg" alt="Aquário Faixa Preta Bivolt Lester"',
+        imagemAtributos: 'src="./object_imgs/produto-aquario.svg" alt="Aquário Faixa Preta Bivolt Lester"',
         h2Titulo: 'Aquário Faixa Preta Bivolt Lester',
         pInformacoes: 'Ideal para harmonizar o ambiente',
         pValor: 'R$178,90',
@@ -93,7 +93,7 @@ const todosProdutos = [
         categoriaAba: 'lancamentos'
         },
     {
-        imagemAtributos: 'src="./img/produto-feno.svg" alt="Feno Belas Aves e Roedores"',
+        imagemAtributos: 'src="./object_imgs/produto-feno.svg" alt="Feno Belas Aves e Roedores"',
         h2Titulo: 'Feno Belas Aves e Roedores',
         pInformacoes: 'Ideal para aves e roedores',
         pValor: 'R$15,40',
@@ -107,7 +107,7 @@ const todosProdutos = [
         categoriaAba: 'lancamentos'
         },
     {
-        imagemAtributos: 'src="./img/produto-serragem.svg" alt="Serragem para Hamster Prensada Fogo e Faísca"',
+        imagemAtributos: 'src="./object_imgs/produto-serragem.svg" alt="Serragem para Hamster Prensada Fogo e Faísca"',
         h2Titulo: 'Serragem para Hamster Prensada Fogo e Faísca',
         pInformacoes: 'Desenvolvida para Hamsters de todos tipos',
         pValor: 'R$7,90',
@@ -121,7 +121,7 @@ const todosProdutos = [
         categoriaAba: ['lancamentos','promocao']
         },
     {
-        imagemAtributos: 'src="./img/produto-osso-brinquedo.svg" alt="Brinquedo Osso Flexi Bone Laranja Odontopet"',
+        imagemAtributos: 'src="./object_imgs/produto-osso-brinquedo.svg" alt="Brinquedo Osso Flexi Bone Laranja Odontopet"',
         h2Titulo: 'Brinquedo Osso Flexi Bone Laranja Odontopet',
         pInformacoes: 'Ideal para cães de todas idades',
         pValor: 'R$21,26',
@@ -133,7 +133,7 @@ const todosProdutos = [
         categoriaAba: ['lancamentos','promocao']
         },
     {
-        imagemAtributos: 'src="./img/produto-bebedouro.svg" alt="Bebedouro para Pássaros Tudo Pet Amarelo"',
+        imagemAtributos: 'src="./object_imgs/produto-bebedouro.svg" alt="Bebedouro para Pássaros Tudo Pet Amarelo"',
         h2Titulo: 'Bebedouro para Pássaros Tudo Pet Amarelo',
         pInformacoes: 'Ideal para manter o seu pet hidratado a qualquer hora do dia',
         pValor: 'R$5,50',
@@ -145,7 +145,7 @@ const todosProdutos = [
         categoriaAba: ['lancamentos','mais-vendidos']
         },
     {
-        imagemAtributos: 'src="./img/produto-caminha.svg" alt="Cama Retangular Carmel Fábrica Pet Rosa"',
+        imagemAtributos: 'src="./object_imgs/produto-caminha.svg" alt="Cama Retangular Carmel Fábrica Pet Rosa"',
         h2Titulo: 'Cama Retangular Carmel Fábrica Pet Rosa',
         pInformacoes: 'Confortável e estilosa',
         pValor: 'R$89,90',
@@ -157,7 +157,7 @@ const todosProdutos = [
         categoriaAba: ['mais-vendidos','promocao']
         },
     {
-        imagemAtributos: 'src="./img/produto-comedouro.svg" alt="Comedouro Lateral com Poleiro Animalíssimo"',
+        imagemAtributos: 'src="./object_imgs/produto-comedouro.svg" alt="Comedouro Lateral com Poleiro Animalíssimo"',
         h2Titulo: 'Comedouro Lateral com Poleiro Animalíssimo',
         pInformacoes: 'Comedouro para alimentar seu pet com mais estilo',
         pValor: 'R$12,30',
@@ -172,7 +172,7 @@ const todosProdutos = [
         categoriaAba: 'mais-vendidos'
         },
     {
-        imagemAtributos: 'src="./img/produto-aditivo.svg" alt="Aditivo Probiótico Pet"',
+        imagemAtributos: 'src="./object_imgs/produto-aditivo.svg" alt="Aditivo Probiótico Pet"',
         h2Titulo: 'Aditivo Probiótico Pet',
         pInformacoes: 'Suplementação com micro-organismos vivos',
         pValor: 'R$33,31',
@@ -186,7 +186,7 @@ const todosProdutos = [
         categoriaAba: 'promocao'
         },
     {
-        imagemAtributos: 'src="./img/produto-adestrador-click.svg" alt="Adestrador Click-R Pet Safe"',
+        imagemAtributos: 'src="./object_imgs/produto-adestrador-click.svg" alt="Adestrador Click-R Pet Safe"',
         h2Titulo: 'Adestrador Click-R Pet Safe',
         pInformacoes: 'Utilizado para adestrar cães com reforços positivos',
         pValor: 'R$58,41',
@@ -200,7 +200,7 @@ const todosProdutos = [
         categoriaAba: ['promocao', 'mais-vendidos']
         },
     {
-        imagemAtributos: 'src="./img/produto-coelheira.svg" alt="Coelheira Bandeja e Toca Monaco"',
+        imagemAtributos: 'src="./object_imgs/produto-coelheira.svg" alt="Coelheira Bandeja e Toca Monaco"',
         h2Titulo: 'Coelheira Bandeja e Toca Monaco',
         pInformacoes: 'Ideal para segurança de seus coelhos',
         pValor: 'R$407,30',
@@ -214,7 +214,7 @@ const todosProdutos = [
         categoriaAba: 'mais-vendidos'
         },
     {
-        imagemAtributos: 'src="./img/produto-ratinho.svg" alt="Brinquedo Ratinho Fofo para Gatos Meow&Me"',
+        imagemAtributos: 'src="./object_imgs/produto-ratinho.svg" alt="Brinquedo Ratinho Fofo para Gatos Meow&Me"',
         h2Titulo: 'Brinquedo Ratinho Fofo para Gatos Meow&Me',
         pInformacoes: 'Ideal para gatos com mais de 6 meses',
         pValor: 'R$17,21',
@@ -226,7 +226,7 @@ const todosProdutos = [
         categoriaAba: 'promocao'
         },
     {
-        imagemAtributos: 'src="./img/produto-areia.svg" alt="Areia Pipicat Classic para Gatos"',
+        imagemAtributos: 'src="./object_imgs/produto-areia.svg" alt="Areia Pipicat Classic para Gatos"',
         h2Titulo: 'Areia Pipicat Classic para Gatos',
         pInformacoes: 'Ideal para gatos',
         pValor: 'R$17,71',
@@ -240,7 +240,7 @@ const todosProdutos = [
         categoriaAba: ['promocao','mais-vendidos']
         },
     {
-        imagemAtributos: 'src="./img/produto-varinha.svg" alt="Varinha para Gatos Bolinha com Plumas Meow & Me"',
+        imagemAtributos: 'src="./object_imgs/produto-varinha.svg" alt="Varinha para Gatos Bolinha com Plumas Meow & Me"',
         h2Titulo: 'Varinha para Gatos Bolinha com Plumas Meow & Me',
         pInformacoes: 'Ideal para gatos com mais de 6 meses',
         pValor: 'R$21,90',
@@ -255,7 +255,7 @@ const todosProdutos = [
         categoriaAba: 'promocao'
         },
     {
-        imagemAtributos: 'src="./img/produto-capa-chuva.svg" alt="Capa de Chuva para Cachorro Rosa Bichinho Chic"',
+        imagemAtributos: 'src="./object_imgs/produto-capa-chuva.svg" alt="Capa de Chuva para Cachorro Rosa Bichinho Chic"',
         h2Titulo: 'Capa de Chuva para Cachorro Rosa Bichinho Chic',
         pInformacoes: 'Ideal para cachorros',
         pValor: 'R43,90',
@@ -267,7 +267,7 @@ const todosProdutos = [
         categoriaAba: 'mais-vendidos'
         },
     {
-        imagemAtributos: 'src="./img/produto-meia.svg" alt="Meia Sapato HomePet Rosa"',
+        imagemAtributos: 'src="./object_imgs/produto-meia.svg" alt="Meia Sapato HomePet Rosa"',
         h2Titulo: 'Meia Sapato HomePet Rosa',
         pInformacoes: 'Vai esquentar as patinhas do seu pet',
         pValor: 'R$21,90',
@@ -279,7 +279,7 @@ const todosProdutos = [
         categoriaAba: ['promocao','mais-vendidos']
         },
     {
-        imagemAtributos: 'src="./img/produto-vestido.svg" alt="Vestido Elegance Bichinho Chic Rosa"',
+        imagemAtributos: 'src="./object_imgs/produto-vestido.svg" alt="Vestido Elegance Bichinho Chic Rosa"',
         h2Titulo: 'Vestido Elegance Bichinho Chic Rosa',
         pInformacoes: 'Confeccionado em tecido de algodão',
         pValor: 'R$27,81',
@@ -291,7 +291,7 @@ const todosProdutos = [
         categoriaAba: 'mais-vendidos'
         },
     {
-        imagemAtributos: 'src="./img/produto-roda-exercicio.svg" alt="Roda de Exercício para Roedores Savana Azul"',
+        imagemAtributos: 'src="./object_imgs/produto-roda-exercicio.svg" alt="Roda de Exercício para Roedores Savana Azul"',
         h2Titulo: 'Roda de Exercício para Roedores Savana Azul',
         pInformacoes: 'Ideal para roedores',
         pValor: 'R$31,41',
@@ -304,7 +304,7 @@ const todosProdutos = [
         categoriaAba: 'promocao'
         },
     {
-        imagemAtributos: 'src="./img/produto-transporte.svg" alt="Caixa de Transporte"',
+        imagemAtributos: 'src="./object_imgs/produto-transporte.svg" alt="Caixa de Transporte"',
         h2Titulo: 'Caixa de Transporte',
         pInformacoes: 'Alta qualidade, com furos nas laterais',
         pValor: 'R$287,81',
@@ -317,7 +317,7 @@ const todosProdutos = [
         categoriaAba: ['promocao','mais-vendidos']
         },
     {
-        imagemAtributos: 'src="./img/produto-globo.svg" alt="Globo Acrílico para Hamster com Suporte 4 em 1 Savana Azul"',
+        imagemAtributos: 'src="./object_imgs/produto-globo.svg" alt="Globo Acrílico para Hamster com Suporte 4 em 1 Savana Azul"',
         h2Titulo: 'Globo Acrílico para Hamster com Suporte 4 em 1 Savana Azul',
         pInformacoes: 'Extremamente silencioso',
         pValor: 'R$24,21',
@@ -328,7 +328,7 @@ const todosProdutos = [
         categoriaAba: 'promocao'
         },
     {
-        imagemAtributos: 'src="./img/produto-bomba" alt="Bomba Submersa para Fonte H190"',
+        imagemAtributos: 'src="./object_imgs/produto-bomba.svg" alt="Bomba Submersa para Fonte H190"',
         h2Titulo: 'Bomba Submersa para Fonte H190',
         pInformacoes: 'Circula até 35 litros de água',
         pValor: 'R$55,71',
@@ -339,7 +339,7 @@ const todosProdutos = [
         categoriaAba: 'mais-vendidos'
         },
     {
-        imagemAtributos: 'src="./img/produto-cascalho.svg" alt="Cascalho para Aquário Aqua Pedras"',
+        imagemAtributos: 'src="./object_imgs/produto-cascalho.svg" alt="Cascalho para Aquário Aqua Pedras"',
         h2Titulo: 'Cascalho para Aquário Aqua Pedras',
         pInformacoes: 'Não altera o PH da água',
         pValor: 'R$21,90',
@@ -350,7 +350,7 @@ const todosProdutos = [
         categoriaAba: ['promocao','mais-vendidos']
         },
     {
-        imagemAtributos: 'src="./img/produto-racao-peixe.svg" alt="Ração Color Flakes Tetra"',
+        imagemAtributos: 'src="./object_imgs/produto-racao-peixe.svg" alt="Ração Color Flakes Tetra"',
         h2Titulo: 'Ração Color Flakes Tetra',
         pInformacoes: 'Ideal para peixes',
         pValor: 'R$22,41',
@@ -361,7 +361,7 @@ const todosProdutos = [
         categoriaAba: 'promocao'
         },
     {
-        imagemAtributos: 'src="./img/produto-pote.svg" alt="Comedouro Colors Flicks Azul"',
+        imagemAtributos: 'src="./object_imgs/produto-pote.svg" alt="Comedouro Colors Flicks Azul"',
         h2Titulo: 'Comedouro Colors Flicks Azul',
         pInformacoes: 'Indicado para cães e gatos',
         pValor: 'R$15,90',
@@ -372,7 +372,7 @@ const todosProdutos = [
         categoriaAba: 'mais-vendidos'
         },
     {
-        imagemAtributos: 'src="./img/produto-bifinho.svg" alt="Petisco Mini Bifinho Keldog Carne"',
+        imagemAtributos: 'src="./object_imgs/produto-bifinho.svg" alt="Petisco Mini Bifinho Keldog Carne"',
         h2Titulo: 'Petisco Mini Bifinho Keldog Carne',
         pInformacoes: 'Para seu pet, defumado e suculento',
         pValor: 'R$23,22',
@@ -381,53 +381,9 @@ const todosProdutos = [
         Esse Petisco para Cachorro tem um delicioso sabor defumado e suculento, feito com carnes selecionadas é indicado para cães de todos os portes. Seu pet vai amar!
         `,
         categoriaAnimal: ['cachorro','gato','outros-animais'],
-        categoriaAba: ['promocao','lancamentos','mais-vendidos']
+        categoriaAba: ['promocao','lancamentos','mais-vendidos'],
         },
     ]
-
-//                                 Arrays de objetos dos cards do carrossel
-
-const carrosselPromoção = [ {
-    imagemAtributos: 'src="./img/produto_fr.png" alt="Osso de brinquedo"',
-    h2Titulo: 'Osso de brinquedo',
-    pInformações: 'Informações',
-    pValor: 'R$19,99',
-},
-{
-    imagemAtributos: 'src="./img/produto2_fr.png" alt="Potes para ração"',
-    h2Titulo: 'Potes para Ração',
-    pInformações: 'Informações',
-    pValor: 'R$19,99',
-}
-];
-
-const carrosselMaisVendidos = [ {
-    imagemAtributos: 'src="./img/produto_fr.png" alt="Osso de brinquedo"',
-    h2Titulo: 'Osso de brinquedo',
-    pInformações: 'Informações',
-    pValor: 'R$19,99',
-},
-{
-    imagemAtributos: 'src="./img/produto2_fr.png" alt="Potes para ração"',
-    h2Titulo: 'Potes para Ração',
-    pInformações: 'Informações',
-    pValor: 'R$19,99',
-}
-];
-
-const carrosselLançamentos = [ {
-    imagemAtributos: 'src="./img/produto_fr.png" alt="Osso de brinquedo"',
-    h2Titulo: 'Osso de brinquedo',
-    pInformações: 'Informações',
-    pValor: 'R$19,99',
-},
-{
-    imagemAtributos: 'src="./img/produto2_fr.png" alt="Potes para ração"',
-    h2Titulo: 'Potes para Ração',
-    pInformações: 'Informações',
-    pValor: 'R$19,99',
-}
-];
 
 //                                 Captura de botões do carrossel
 
@@ -440,23 +396,25 @@ const botaoLancamentos = document.getElementById("botao-lancamentos");
 const carrosselContainer = document.getElementById("container-carrossel");
 
 
-// Carrossel Promoção
+// Carrossel Index
 
 function renderizarPromocao() {
 
+    const carrosselPromocao = todosProdutos.filter(produto => produto.categoriaAba.includes("promocao"));
+
+
     carrosselContainer.innerHTML = "";
 
-    for (let i = 0; i < carrosselPromoção.length; i++) {
+    for (let i = 0; i < carrosselPromocao.length; i++) {
 
         const novaDiv = document.createElement("div");
 
         novaDiv.classList.add("card");
 
         novaDiv.innerHTML = `
-            <img ${carrosselPromoção[i].imagemAtributos} class="card-imagem">
-            <h2 class="card-titulo">${carrosselPromoção[i].h2Titulo}</h2>
-            <p class="card-informacoes">${carrosselPromoção[i].pInformações}</p>
-            <p class="card-valor">${carrosselPromoção[i].pValor}</p>
+            <img ${carrosselPromocao[i].imagemAtributos} class="card-imagem">
+            <h2 class="card-titulo">${carrosselPromocao[i].h2Titulo}</h2>
+            <p class="card-valor">${carrosselPromocao[i].pValor}</p>
         `;
 
         carrosselContainer.appendChild(novaDiv);
@@ -469,6 +427,8 @@ botaoPromocao.addEventListener("click", renderizarPromocao);
 
 function renderizarMaisVendidos() {
 
+    const carrosselMaisVendidos = todosProdutos.filter(produto => produto.categoriaAba.includes("mais-vendidos"));
+
     carrosselContainer.innerHTML = "";
 
     for (let i = 0; i < carrosselMaisVendidos.length; i++) {
@@ -480,7 +440,6 @@ function renderizarMaisVendidos() {
         novaDiv.innerHTML = `
             <img ${carrosselMaisVendidos[i].imagemAtributos} class="card-imagem">
             <h2 class="card-titulo">${carrosselMaisVendidos[i].h2Titulo}</h2>
-            <p class="card-informacoes">${carrosselMaisVendidos[i].pInformações}</p>
             <p class="card-valor">${carrosselMaisVendidos[i].pValor}</p>
         `;
 
@@ -492,25 +451,26 @@ botaoMaisVendidos.addEventListener("click", renderizarMaisVendidos);
 
 // Carrossel Lançamentos
 
-function renderizarLançamentos() {
+function renderizarLancamentos() {
+
+    const carrosselLancamentos = todosProdutos.filter(produto => produto.categoriaAba.includes("lancamentos"));
 
     carrosselContainer.innerHTML = "";
 
-    for (let i = 0; i < carrosselLançamentos.length; i++) {
+    for (let i = 0; i < carrosselLancamentos.length; i++) {
 
         const novaDiv = document.createElement("div");
 
         novaDiv.classList.add("card");
 
         novaDiv.innerHTML = `
-            <img ${carrosselLançamentos[i].imagemAtributos} class="card-imagem">
-            <h2 class="card-titulo">${carrosselLançamentos[i].h2Titulo}</h2>
-            <p class="card-informacoes">${carrosselLançamentos[i].pInformações}</p>
-            <p class="card-valor">${carrosselLançamentos[i].pValor}</p>
+            <img ${carrosselLancamentos[i].imagemAtributos} class="card-imagem">
+            <h2 class="card-titulo">${carrosselLancamentos[i].h2Titulo}</h2>
+            <p class="card-valor">${carrosselLancamentos[i].pValor}</p>
         `;
 
         carrosselContainer.appendChild(novaDiv);
     }
 }
 
-botaoLancamentos.addEventListener("click", renderizarLançamentos);
+botaoLancamentos.addEventListener("click", renderizarLancamentos);
