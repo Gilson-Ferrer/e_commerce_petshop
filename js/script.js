@@ -398,6 +398,28 @@ const carrosselContainer = document.getElementById("container-carrossel");
 
 // Carrossel Index
 
+function renderizarTodos() {
+
+    carrosselContainer.innerHTML = "";
+
+    for (let i = 0; i < todosProdutos.length; i++) {
+
+        const novaDiv = document.createElement("div");
+
+        novaDiv.classList.add("card");
+
+        novaDiv.innerHTML = `
+            <img ${todosProdutos[i].imagemAtributos} class="card-imagem">
+            <h2 class="card-titulo">${todosProdutos[i].h2Titulo}</h2>
+            <p class="card-valor">${todosProdutos[i].pValor}</p>
+        `;
+
+        carrosselContainer.appendChild(novaDiv);
+    }
+}
+
+renderizarTodos();
+
 function renderizarPromocao() {
 
     const carrosselPromocao = todosProdutos.filter(produto => produto.categoriaAba.includes("promocao"));
