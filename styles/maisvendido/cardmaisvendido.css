@@ -13,6 +13,12 @@
     margin: 1em 10%;
 }
 
+#cards-mais-vendidos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 
 .card {
@@ -44,8 +50,9 @@
 
 .card-informacoes {
     align-self: start;
-    font-size: 0.25rem;
-    padding: 3em 6em;
+    font-size: 0.75rem;
+    margin-right: 120px;
+    padding: 1em;
 }
 
 .card-valor {
@@ -53,6 +60,7 @@
     align-self: end;
     font-size: 1.25rem;
     padding: 1em 0.75em;
+    margin-left: 120px;
     color: var(--laranja-card);
 }
 
