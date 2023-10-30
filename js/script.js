@@ -538,7 +538,6 @@ function renderizarPosCarrossel() {
 
     const categoriaPosCarrossel = todosProdutos.filter(produto => arrayDeNumeros.includes(parseInt(produto.cod)));
 
-    console.log(categoriaPosCarrossel);
 
     secaoCard.innerHTML = "";
 
@@ -560,3 +559,60 @@ function renderizarPosCarrossel() {
 }
 
 renderizarPosCarrossel();
+
+
+/*--------------------------------------------------LÓGICA E RENDERIZAÇÃO A PARTIR DA BARRA DE PESQUISA---------- */
+
+//Captura de elementos
+
+
+const inputPesquisa = document.getElementById("input-pesquisa");
+const iconePesquisa = document.getElementById("icone=pesquisa");
+
+const secaoCarrossel = document.getElementById("secao-carrossel");
+const secaoPesquisa = document.getElementById("secao-pesquisa");
+const secaoBotao = document.getElementById("secao-botao");
+
+//Renderização da "seção de pesquisa"
+
+
+inputPesquisa.addEventListener("input", function () {
+    if (inputPesquisa.value === "" || inputPesquisa.value === " " || inputPesquisa.value === "  " || inputPesquisa.value === "   ") {
+        secaoBotao.style.display = "flex";
+        secaoCarrossel.style.display = "block";
+        secaoCard.style.display = "flex";
+        secaoPesquisa.style.display = "none";
+    } else {
+        secaoBotao.style.display = "none";
+        secaoCarrossel.style.display = "none";
+        secaoCard.style.display = "none";
+        secaoPesquisa.style.display = "flex";
+
+        let palavraChave = inputPesquisa.value;
+        let resultadosDaPesquisa = todosProdutos.filter(produto => produto.h2Titulo.toLowerCase().includes(palavraChave.toLowerCase()));
+        
+        function renderizarPesquisa() {
+
+            secaoPesquisa.innerHTML = "";
+        
+            for (let i = 0; i < resultadosDaPesquisa.length; i++) {
+        
+                const novaDiv = document.createElement("div");
+        
+                novaDiv.classList.add("card");
+        
+                novaDiv.innerHTML = `
+                    <img ${resultadosDaPesquisa[i].imagemAtributos} class="card-imagem">
+                    <h2 class="card-titulo">${resultadosDaPesquisa[i].h2Titulo}</h2>
+                    <p class="card-valor">${resultadosDaPesquisa[i].pValor}</p>
+                `;
+        
+                secaoPesquisa.appendChild(novaDiv);
+            }
+        }
+
+        renderizarPesquisa();
+    }
+});
+
+
