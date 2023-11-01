@@ -409,6 +409,8 @@ function renderizarCachorro() {
         novaDiv.classList.add("card");
 
         novaDiv.innerHTML = `
+            <button class="botao-adicionar">Adicionar</button>
+            <button class="botao-remover produto-${todosProdutos[i].cod}">Remover</button>
             <img ${categoriaCachorro[i].imagemAtributos} class="card-imagem">
             <h2 class="card-titulo">${categoriaCachorro[i].h2Titulo}</h2>
             <p class="card-valor">${categoriaCachorro[i].pValor}</p>
@@ -436,6 +438,8 @@ function renderizarGato() {
         novaDiv.classList.add("card");
 
         novaDiv.innerHTML = `
+            <button class="botao-adicionar">Adicionar</button>
+            <button class="botao-remover produto-${todosProdutos[i].cod}">Remover</button>
             <img ${categoriaGato[i].imagemAtributos} class="card-imagem">
             <h2 class="card-titulo">${categoriaGato[i].h2Titulo}</h2>
             <p class="card-valor">${categoriaGato[i].pValor}</p>
@@ -464,6 +468,8 @@ function renderizarOutros() {
         novaDiv.classList.add("card");
 
         novaDiv.innerHTML = `
+            <button class="botao-adicionar">Adicionar</button>
+            <button class="botao-remover produto-${todosProdutos[i].cod}">Remover</button>
             <img ${categoriaOutros[i].imagemAtributos} class="card-imagem">
             <h2 class="card-titulo">${categoriaOutros[i].h2Titulo}</h2>
             <p class="card-valor">${categoriaOutros[i].pValor}</p>

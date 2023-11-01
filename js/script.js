@@ -409,6 +409,8 @@ function renderizarTodos() {
         novaDiv.classList.add("card");
 
         novaDiv.innerHTML = `
+            <button class="botao-adicionar">Adicionar</button>
+            <button class="botao-remover produto-${todosProdutos[i].cod}">Remover</button>
             <img ${todosProdutos[i].imagemAtributos} class="card-imagem">
             <h2 class="card-titulo">${todosProdutos[i].h2Titulo}</h2>
             <p class="card-valor">${todosProdutos[i].pValor}</p>
@@ -437,6 +439,8 @@ function renderizarPromocao() {
         novaDiv.classList.add("card");
 
         novaDiv.innerHTML = `
+            <button class="botao-adicionar">Adicionar</button>
+            <button class="botao-remover produto-${todosProdutos[i].cod}">Remover</button>
             <img ${carrosselPromocao[i].imagemAtributos} class="card-imagem">
             <h2 class="card-titulo">${carrosselPromocao[i].h2Titulo}</h2>
             <p class="card-valor">${carrosselPromocao[i].pValor}</p>
@@ -463,6 +467,8 @@ function renderizarMaisVendidos() {
         novaDiv.classList.add("card");
 
         novaDiv.innerHTML = `
+            <button class="botao-adicionar">Adicionar</button>
+            <button class="botao-remover produto-${todosProdutos[i].cod}">Remover</button>
             <img ${carrosselMaisVendidos[i].imagemAtributos} class="card-imagem">
             <h2 class="card-titulo">${carrosselMaisVendidos[i].h2Titulo}</h2>
             <p class="card-valor">${carrosselMaisVendidos[i].pValor}</p>
@@ -489,6 +495,8 @@ function renderizarLancamentos() {
         novaDiv.classList.add("card");
 
         novaDiv.innerHTML = `
+            <button class="botao-adicionar">Adicionar</button>
+            <button class="botao-remover produto-${todosProdutos[i].cod}">Remover</button>
             <img ${carrosselLancamentos[i].imagemAtributos} class="card-imagem">
             <h2 class="card-titulo">${carrosselLancamentos[i].h2Titulo}</h2>
             <p class="card-valor">${carrosselLancamentos[i].pValor}</p>
@@ -549,6 +557,8 @@ function renderizarPosCarrossel() {
         novaDiv.classList.add("card");
 
         novaDiv.innerHTML = `
+            <button class="botao-adicionar">Adicionar</button>
+            <button class="botao-remover produto-${todosProdutos[i].cod}">Remover</button>
             <img ${categoriaPosCarrossel[i].imagemAtributos} class="card-imagem">
             <h2 class="card-titulo">${categoriaPosCarrossel[i].h2Titulo}</h2>
             <p class="card-valor">${categoriaPosCarrossel[i].pValor}</p>
@@ -602,6 +612,8 @@ inputPesquisa.addEventListener("input", function () {
                 novaDiv.classList.add("card");
         
                 novaDiv.innerHTML = `
+                    <button class="botao-adicionar">Adicionar</button>
+                    <button class="botao-remover produto-${todosProdutos[i].cod}">Remover</button>
                     <img ${resultadosDaPesquisa[i].imagemAtributos} class="card-imagem">
                     <h2 class="card-titulo">${resultadosDaPesquisa[i].h2Titulo}</h2>
                     <p class="card-valor">${resultadosDaPesquisa[i].pValor}</p>
