@@ -90,6 +90,6 @@ let corretos = {
 btnSubmit.addEventListener("click", (e) =>{  
     if(corretos.cep == false){
         e.preventDefault()
-        alert("Os campos (* obrigatórios) deverão ser preenchidos")
+        alert("Os campos com * deverão ser preenchidos")
     }
 })

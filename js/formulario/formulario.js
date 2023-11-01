@@ -228,6 +228,6 @@ btnSubmit.addEventListener("click", (e) =>{
   
     ){
         e.preventDefault()
-        alert("Os campos (* obrigatórios) deverão ser preenchidos")
+        alert("Os campos com * deverão ser preenchidos")
     }
 })

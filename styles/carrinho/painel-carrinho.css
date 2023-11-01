@@ -25,14 +25,15 @@ padding-left: 95%;
 }
 
 .img-descricao h2 {
-    width: 40%;
-    padding-left: 20%;
+    width: 70%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
-#produto-venda {
+/* #produto-venda {
     width: 20%;
     height: auto;
     background-color: white;
-}
+} */
 
 #valor-unidade {
     width: 480px;
