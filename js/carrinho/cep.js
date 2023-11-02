@@ -3,6 +3,7 @@
 
 function buscarCep (){
     let cep = document.getElementById("cep").value;
+    localStorage.setItem('valuecepcarrinho', cep);
     if (cep !== ""){
         let url = "https://brasilapi.com.br/api/cep/v1/" + cep;
         let request = new XMLHttpRequest();
@@ -79,6 +80,22 @@ function buscarCep (){
     let txtCep = document.getElementById("cep");
     txtCep.addEventListener("blur", buscarCep);
   }
+
+  // TRANSFORMA DISPLAY EM BLOCK NAS QUANTIDADES //
+
+const cepCaptur = document.getElementById('cep');
+const displayDetalhes = document.getElementById('display-detalhes')
+  cepCaptur.addEventListener("change", (e) =>{
+    let valor = e.target.value
+    if (valor.length >= 8){
+        displayDetalhes.classList.add('visible')
+        displayDetalhes.classList.remove('display-detalhes')
+
+    }else{
+        displayDetalhes.classList.remove('visible')
+        displayDetalhes.classList.add('display-detalhes')
+
+    }}) 
 
   // EVITA O ENVIO SEM O PREENCHIMENTO DO CEP// 
 

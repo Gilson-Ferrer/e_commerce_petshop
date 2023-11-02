@@ -4,6 +4,9 @@ let btn = document.getElementById('comprar');
 
 btn.addEventListener("click", function(){
     let armazenarCep = document.getElementById('searchcep').value;
+    const tipoPagamento = document.querySelector("input[name = 'meio-pagamento']:checked").value;
+
+    localStorage.setItem('valuePagamento', tipoPagamento);
     localStorage.setItem('valueText', armazenarCep);
 })
 // //BUSCAR CEP E ATRIBUIR VALOR//
@@ -127,6 +130,7 @@ cepInput.addEventListener("blur", (e) =>{
         inputCorreto(cepInput)
         cepHelper.innerText = ("")
         inputsCorretos.cep = true;
+    
     }else{
         cepHelper.innerText = ("Digite um cep válido")
         inputIncorreto(cepInput)

@@ -91,58 +91,38 @@
                 </div> -->
 
                     <!--Calcular frete-->
-                <div class="campo-frete">
+                <div id="campo-frete">
                     <h4><label for="cep">*  Calcular frete</label></h4>
                     <input type="text" id="cep" placeholder="Digite o cep...">
-                    <input type="txt" id="local-frete">
+                    <div id="local-frete"></div>
                     <div id="valor-frete">R$  0.00</div>
                 </div><br>
-                
-                <div class="quantidade">
-                    <h3 class="texto-quantidade">Quantidade</h3>
-                    <button id="rem-produto">-</button>
-                    <div id="quantidade-produtos"></div>
-                    <button id="add-produto">+</button>
-                </div>
+                <div class="display-detalhes" id="display-detalhes">                
+                    <div class="quantidade">
+                        <h3 class="texto-quantidade">Quantidade</h3>
+                        <button id="rem-produto">-</button>
+                        <div id="quantidade-produtos"></div>
+                        <button id="add-produto">+</button>
+                    </div>
 
-                    <!--Calcular sutotal e total-->
-                <div class="subtotal">
-                    <h4>Subtotal</h4>
-                    <div id="subtotal-result">R$  0.00</div>                              
+                        <!--Calcular sutotal e total-->
+                    <div class="subtotal">
+                        <h4>Subtotal</h4>
+                        <div id="subtotal-result">R$  0.00</div>                              
+                    </div>
+                    <div class="total">
+                        <h4>Total</h4>
+                        <div id="total-result">R$  0.00</div> 
+                    </div>
+                    <div>
+                        <!-- <button id="continuar-comprando">Continuar comprando</button> -->
+                        <button id="fazer-pedido">Fechar pedido</button>
+                    </div>
                 </div>
-                <div class="total">
-                    <h4>Total</h4>
-                    <div id="total-result">R$  0.00</div> 
-                </div>
-                <div>
-                    <button id="continuar-comprando">Continuar comprando</button>
-                </div>
-                <a href="./fomulario.html"><button id="fazer-pedido">Fechar pedido</button></a>
+                
+
             </div>
         </section>
-        <!-- <section >
-            <h3 class="titulo2">Produtos relacionados</h3>  
-            <div class="produtos-relacionados">              
-                <div class="card">
-                    <img src="./object_imgs/produto-racaoumida-gato.svg" alt="Ração umida para gatos" class="card-imagem">
-                    <h2 class="card-titulo">Ração umida para gatos</h2>
-                    <p class="card-informacoes">Cod: 001</p>
-                    <p class="card-valor">R$3,99</p>
-                </div>
-                <div class="card">
-                    <img src="./object_imgs/produto-capa-chuva.svg" alt="Capa de chuva" class="card-imagem">
-                    <h2 class="card-titulo">Capa de Chuva para Cachorro</h2>
-                    <p class="card-informacoes">Cod: 020</p>
-                    <p class="card-valor">R$43,90</p>
-                </div>
-                <div class="card">
-                    <img src="object_imgs/produto-antipulga.svg" alt="antipulgas" class="card-imagem">
-                    <h2 class="card-titulo">Antipulgas Simparic 10kg</h2>
-                    <p class="card-informacoes">Cod: 004</p>
-                    <p class="card-valor">R$107,91</p>  
-                </div>
-            </div>
-        </section> -->
     </main> 
     <footer class="rodape">
         

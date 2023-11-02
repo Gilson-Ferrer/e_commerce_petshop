@@ -420,28 +420,14 @@ btnSubProduto01.addEventListener("click",() => {
 let btn = document.getElementById('fazer-pedido');
 
 btn.addEventListener("click", function(){
-  localStorage.setItem('valueDescricao', todosProdutos[cdgProduto].h2Titulo);
-  localStorage.setItem('ValueQuantidade', subtotalInfo.quantidade)
+    if ( subtotalInfo.quantidade > 0){
+
+        localStorage.setItem('valueDescricao', todosProdutos[cdgProduto].h2Titulo);
+        localStorage.setItem('ValueQuantidade', subtotalInfo.quantidade)
+        window.location.href = "./fomulario.html"
+    }
+
 
 })
 
 
-
-// GUARDAR OS PRODUTOS DA SACOLA //
-
-// const sacola = []
-
-
-// if (sacola.includes(cdgProduto)){
-//     console.log('produto já existe')
-// }else{
-//   console.log('produto adicionado');
-// }
-// localStorage.setItem('Valuesacola', sacola)
-
-
-// const btnContinuarComprando = getElementById('continuar-comprando')
-
-// btnContinuarComprando.addEventListener('click', function(){
-//   sacola.push(cdgProduto)
-// })

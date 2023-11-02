@@ -85,26 +85,39 @@ padding-left: 95%;
     width: 260px;
 }
 
-.campo-frete {
+#campo-frete {
     display: flex;
     justify-content: space-between;
     width: 80%;
     padding-top: 4%;
     padding-bottom: 2px;
 
-}Home
+}
+Home
 
-.campo-frete #cep {
+#campo-frete #cep {
     width: 160px;
 }
 
-.campo-frete #local-frete {
+#campo-frete #local-frete {
     width: 30px;
 }
 
 #valor-frete {
     color: #4B9926;
     font-size: 1.2rem;
+}
+
+.display-detalhes{
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.invisible {
+    display: none;
 }
 
 .subtotal {
