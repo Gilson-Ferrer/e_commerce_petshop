@@ -407,6 +407,7 @@ function renderizarTodos() {
         const novaDiv = document.createElement("div");
 
         novaDiv.classList.add("card");
+        novaDiv.classList.add("carrossel-card_width");
 
         novaDiv.innerHTML = `
             <button class="botao-adicionar" produto_adicionar-${todosProdutos[i].cod}>Adicionar</button>
@@ -437,6 +438,7 @@ function renderizarPromocao() {
         const novaDiv = document.createElement("div");
 
         novaDiv.classList.add("card");
+        novaDiv.classList.add("carrossel-card_width");
 
         novaDiv.innerHTML = `
             <button class="botao-adicionar" produto_adicionar-${carrosselPromocao[i].cod}>Adicionar</button>
@@ -465,6 +467,7 @@ function renderizarMaisVendidos() {
         const novaDiv = document.createElement("div");
 
         novaDiv.classList.add("card");
+        novaDiv.classList.add("carrossel-card_width");
 
         novaDiv.innerHTML = `
             <button class="botao-adicionar" produto_adicionar-${carrosselMaisVendidos[i].cod}>Adicionar</button>
@@ -493,6 +496,7 @@ function renderizarLancamentos() {
         const novaDiv = document.createElement("div");
 
         novaDiv.classList.add("card");
+        novaDiv.classList.add("carrossel-card_width");
 
         novaDiv.innerHTML = `
             <button class="botao-adicionar" produto_adicionar-${carrosselLancamentos[i].cod}>Adicionar</button>
