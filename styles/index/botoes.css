@@ -17,6 +17,10 @@
     border-radius: 8px;
 }
 
+.botao-estilo:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1200px) {
 
     .botao {
