@@ -36,7 +36,7 @@ const todosProdutos = [
       },
   {
       imagemAtributos: "./object_imgs/produto-antipulga.svg",
-      h2Titulo: 'Antipulgas Simparic 10kg a 20kg de 40mg',
+      h2Titulo: 'Antipulgas Simparic 10kg',
       pInformacoes: 'Ideal para cachorros de 10kg a 20kg',
       pValor: 'R$ 107.91',
       cod: '003',
@@ -71,7 +71,7 @@ const todosProdutos = [
       },
   {
       imagemAtributos: "./object_imgs/produto-aquario.svg",
-      h2Titulo: 'Aquário Faixa Preta Bivolt Lester',
+      h2Titulo: 'Aquário Faixa Preta Lester',
       pInformacoes: 'Ideal para harmonizar o ambiente',
       pValor: 'R$ 178.90',
       cod: '006',

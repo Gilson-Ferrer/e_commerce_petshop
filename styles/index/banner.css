@@ -39,8 +39,9 @@
 }
 
 .banner-desconto {
-    font-size: 6rem;
+    font-size: 7.5rem;
     padding: 4em 1em 0 0;
+    font-style: italic;
     text-transform: uppercase;
     color: var(--azul-botao);
 }

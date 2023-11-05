@@ -74,6 +74,7 @@ let ufInput = document.getElementById("uf");
 let ufHelper = document.getElementById("uf-helper");
 
 
+
 function inputCorreto (input){
     input.classList.remove("error");
     input.classList.add("correct")
@@ -91,6 +92,8 @@ nameInput.addEventListener("blur", (e) =>{
         inputCorreto(nameInput)
         nameHelper.innerText = ("")
         inputsCorretos.username = true;
+        let nomeUsuario = document.getElementById("username").value;
+        localStorage.setItem('valueName', nomeUsuario);
     }else{
         nameHelper.innerText = ("Digite seu primeiro nome")
         inputIncorreto(nameInput)
@@ -117,6 +120,8 @@ emailInput.addEventListener("blur", (e) =>{
         inputCorreto(emailInput)
         emailHelper.innerText = ("")
         inputsCorretos.email = true;
+        let getEmail = document.getElementById("email").value;
+        localStorage.setItem('ValueEmail', getEmail)
     }else{
         emailHelper.innerText = ("Digite um email válido")
         inputIncorreto(emailInput)
@@ -228,7 +233,7 @@ btnSubmit.addEventListener("click", (e) =>{
         inputsCorretos.rua == false ||
         inputsCorretos.numero == false ||
         inputsCorretos.cidade == false ||
-        inputsCorretos.uf == false 
+        inputsCorretos.uf == false
   
     ){
         e.preventDefault()

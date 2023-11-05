@@ -260,7 +260,6 @@ for (let i = 0; i < prodPromocao.length; i ++){
     <img src=${prodPromocao[i].imagemAtributos} alt="${prodPromocao[i].h2Titulo}" class="card-imagem">
     <h2 class="card-titulo">${prodPromocao[i].h2Titulo}</h2>
     <p class="card-informacoes">${prodPromocao[i].cod}</p>
-    <button class="btn-adicionar">Adicionar</button>
     <p class="card-valor">${prodPromocao[i].pValor}</p>
     </div>
     `;
@@ -274,7 +273,7 @@ for (let i = 0; i < prodPromocao.length; i ++){
 
 
 
-const btnAdicionar = document.getElementsByClassName('btn-adicionar');
+const btnAdicionar = document.getElementsByClassName('card');
 
 for (let i = 0; i < btnAdicionar.length; i ++){
     btnAdicionar[i].addEventListener('click', function (e){
@@ -287,5 +286,4 @@ for (let i = 0; i < btnAdicionar.length; i ++){
 
     })
 }
-
 

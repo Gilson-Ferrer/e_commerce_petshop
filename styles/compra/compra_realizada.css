@@ -11,6 +11,15 @@
     
 }
 
+.texto-itens-comprados h4{
+    font-size: 1.2rem;
+}
+
+.texto-itens-comprados h6{
+    font-size: 1rem;
+    color: green;
+}
+
 .texto-itens-comprados h2{
     font-size: 1.5rem;
     padding: 0.5rem;
@@ -44,6 +53,8 @@
 }
 #cep-entrega {
     width: 500px;
+    height: 20px;
+    padding-top: 15px;
     background-color: white;
     
 }

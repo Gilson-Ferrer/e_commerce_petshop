@@ -22,33 +22,31 @@ https://www.loopnerd.com.br/codigos-html-prontos/ -> site para consulta de html
 
 
 
-	2. reunião relizada em 27/08/2023 -> Estrutura de Html. -> OK
+	2. reunião realizada em 27/08/2023 -> Estrutura de Html. -> OK
 
 			Estrutura criada pelo vinícius, e definida como padrão para replicar as outras páginas.
 
 
-	3. reunião relizada em 19/09/2023 -> definições de menu hamburguer e responsividade. -> OK
+	3. reunião realizada em 19/09/2023 -> definições de menu hamburguer e responsividade. -> OK
 
 			Escolha e definição em comum acordo para nova divisão de tarefas e detalhamento de menu com responsividade (remover carrossel quando responsivo e estruturar cards em 1 ou 2 por vez, sobreposição do menu hamburguer no background)
 
-	4. reunião relizada em 25/10/2023 -> definições de banco de produtos, banco de dados e detalhes de carrossel, links de páginas, renderização, sistema de captção e armazenamento de informações. ->
+	4. reunião realizada em 25/10/2023 -> definições de banco de produtos, banco de dados e detalhes de carrossel, links de páginas, renderização, sistema de captção e armazenamento de informações. ->
+
+
+	5. reunião realizada em 04/11/2023 -> ajustes finais dos cards, inserir informações no footer de nossas redes sociais
 
 
 
-* Funcionalidades do site
+* ìtens do site
 
 	* responsividade
 	* carrinho
-	* cadastro de clientes
-		- login
-		- sair
 	* produtos para venda
-	* banco de dados
 	* pesquisa
 	* indicações baseadas nos produtos
 	* paginas
 	* contato
-	* chat on line
 	* pagamentos
 	* banco de imagens
 	* Paleta de cores e design
