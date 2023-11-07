@@ -51,6 +51,15 @@
     padding: 1em;
 }
 
+.rodape-link {
+    text-decoration: none;
+    color: black;
+}
+
+.rodape-link:hover {
+    text-decoration:underline;
+}
+
 .rodape-info__texto {
     padding: 0 0 0.5em 0;
 }
